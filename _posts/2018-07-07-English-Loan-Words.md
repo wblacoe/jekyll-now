@@ -2,10 +2,12 @@
 layout: post
 title: English Loan Words
 categories: [Linguistics, International]
+date: 2018-7-7
+summary: English words come from all over the world. Words that get picked up abroad can end up as loan words. Let's take a look at examples with Indian, Jewish and Chinese origins.
+thumbnail: /images/worldLanguages.gif
 ---
 
 Do you know where all the words in the English language come from? They come from all over the world. Some words have been around for so long that they have fully integrated into the language and the culture so that you no longer even notice that they once came from another language. But how does this process begin? When someone returns from their international travels they bring back souvenirs, experiences and, yes, also words from the places they visited. Sometimes these words just seem cool or particularly useful. Their meanings get "borrowed" and inserted into the already established language. Hence, they are called loan words.
-![](/images/worldLanguages.gif)
 
 Words like *guru* or *yoga* pretty obviously come from **India**. Since we also think of Indian culture with *curry* and *mandala* it is easy for us to tell they come from there. But there are several Indian words that I was surprised to learn come from India, for example *bungalow*, *cheetah*, *pyjama*, *shampoo* and *khaki*. Some of these are by now so natural that, at least for me, I never even questioned whether they were foreign. According to [this article](http://www.wmich.edu/dialogues/themes/indianwords.htm) "The Oxford English Dictionary currently has 700 words of Indian origin". It goes on to explain that most of such words "were assimilated during the period of 16th to 20th century, when the British were following an aggressive imperial policy abroad, especially the Indian subcontinent."
 

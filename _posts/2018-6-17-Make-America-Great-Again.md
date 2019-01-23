@@ -2,15 +2,18 @@
 layout: post
 title: Make America Great Again
 categories: [Linguistics, Politics]
+date: 2018-6-17
+summary: My thoughts on Donald Trump's slogan Make America Great Again. This short catchphrase is so successful because it strategically leaves gaps in its meaning for everyone to fill in.
+thumbnail: /images/magaHat.jpg
 ---
 
 Two years ago Donald Trump led a very effective campaign for the office of U.S. president by running on populist messages, virtually all of which he has since ignored or acted against. In this post I want to focus on the slogan that he spread in the form of a red baseball cap, **Make America Great Again**. To do so I will share my thoughts on the linguistic properties and implications of this short but penetrating catchphrase.
 
 The slogan's first word is a verb in its basic form. This verb form can be used for infinitives, imperatives and subjunctives alike. Further context is needed to know which application of **make** is intended. Interestingly, though, the other three words are not enough context to clarify this question. Rather than being problematic, this ambiguity is very useful to appeal to as many voters as possible. For each so-called mood I will give you possible extensions of Make America Great Again that illustrate what I mean:
 
--infinitive (Trump speaking):
+- infinitive (Trump speaking):
 *I (and only I) can make America great again.*
--imperative (Trump speaking):
+- imperative (Trump speaking):
 *Whenever someone in power has the choice of serving himself or the country I will command him by saying "make America great again"!*
 - subjunctive (the voter speaking):
 *I wish a strong leader would make America great again.*
