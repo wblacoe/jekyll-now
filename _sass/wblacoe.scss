@@ -1,0 +1,11 @@
+//added by wblacoe
+
+.grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+.col:last-child {
+  margin-left: 20px;
+}

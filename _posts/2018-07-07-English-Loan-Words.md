@@ -10,7 +10,7 @@ summary: English words come from all over the world. Words that get picked up ab
 		Do you know where all the words in the English language come from? They come from all over the world. Some words have been around for so long that they have fully integrated into the language and the culture so that you no longer even notice that they once came from another language. But how does this process begin? When someone returns from their international travels they bring back souvenirs, experiences and, yes, also words from the places they visited. Sometimes these words just seem cool or particularly useful. Their meanings get "borrowed" and inserted into the already established language. Hence, they are called loan words.
 	</div>
 	<div class="col">
-		<img src="/images/worldLanguages.gif" width="30%" />
+		<img src="/images/worldLanguages.gif" width="50%" />
 	</div>
 </div>
 
