@@ -10,7 +10,7 @@ summary: My thoughts on Donald Trump's slogan Make America Great Again. This sho
 		Two years ago Donald Trump led a very effective campaign for the office of U.S. president by running on populist messages, virtually all of which he has since ignored or acted against. In this post I want to focus on the slogan that he spread in the form of a red baseball cap, **Make America Great Again**. To do so I will share my thoughts on the linguistic properties and implications of this short but penetrating catchphrase.
 	</div>
 	<div class="col">
-		<img src="/images/worldLanguages.gif" width="50%" />
+		<img src="/images/magaHat.jpg" width="50%" />
 	</div>
 </div>
 
