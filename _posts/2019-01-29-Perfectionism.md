@@ -4,6 +4,7 @@ title: Perfectionism
 tags: [Psychology, Writing]
 ---
 
+<img class="floatleft" width="50%" src="/images/perfectionism.jpg" />
 As a PhD student I needed a lot of help to write my academic papers. I can elegantly and concisely express my ideas in mathematical formulas. But when it comes to prose, it can take me a long time because I want my writing to be pristine. But that only leads to self-defeat and constant procrastination. I have found that instead of repeatedly pausing and trying to anticipate the rest of the article so that each sentence fits perfectly at the time of my writing it, it is much easier to write a first draft very quickly all the way through, no matter how sloppy and unstructured it is, and then making changes to the snippets and rearranging them afterwards.
 
 Writing on this blog is my way of challenging myself. My hope is to prove to myself that my fear of imperfection is irrational.
