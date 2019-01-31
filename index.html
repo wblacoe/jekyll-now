@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 		<a href="{{ site.baseurl }}{{ post.url }}" style="color:#333333;">
-			<div class="entry">
+			<!--<div class="entry">-->
 				<table width="100%">
 					<tr valign="top">
 						<td>
@@ -17,10 +17,10 @@ layout: default
 						</td>
 					</tr>
 				</table>
-			</div>
+			<!--</div>-->
 			{{ post.excerpt | truncatewords:80 }}
 		</a>
-		<br>
+		<br><br>
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
