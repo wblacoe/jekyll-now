@@ -9,7 +9,16 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+		<table>
+			<tr valign="top">
+				<td>
+					{{ post.excerpt | truncatewords:80 }}
+				</td>
+				<td width="120">
+					<span class="post-date" style="float:right;"><i>{{ page.date | date_to_string }}</i></span>
+				</td>
+			</tr>
+        </table>
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>

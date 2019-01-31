@@ -6,8 +6,16 @@ comments: true
 <article class="post">
 
 <div class="post">
-  <span class="post-date" style="float:right;"><i>{{ page.date | date_to_string }}</i></span>
-  <h1 class="post-title">{{ page.title }}</h1>
+	<table>
+		<tr valign="top">
+			<td>
+				<h1 class="post-title">{{ page.title }}</h1>
+			</td>
+			<td width="120">
+				<span class="post-date" style="float:right;"><i>{{ page.date | date_to_string }}</i></span>
+			</td>
+		</tr>
+	</table>
   
   <article>
     {{ content }}
