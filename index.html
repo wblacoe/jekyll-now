@@ -7,12 +7,12 @@ layout: default
     <article class="post">
 		<a href="{{ site.baseurl }}{{ post.url }}" style="color:#333333;">
 			<div class="entry">
-				<table>
+				<table width="100%">
 					<tr valign="top">
 						<td>
 							<h1>{{ post.title }}</h1>
 						</td>
-						<td width="200">
+						<td width="160">
 							<span class="post-date" style="float:right;"><i>{{ post.date | date_to_string }}</i></span>
 						</td>
 					</tr>
@@ -20,8 +20,8 @@ layout: default
 			</div>
 			{{ post.excerpt | truncatewords:80 }}
 		</a>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+		<br>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
