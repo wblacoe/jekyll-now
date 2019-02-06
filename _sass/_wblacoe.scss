@@ -81,23 +81,9 @@
   border-left-color: darkblue;
 }
 
-/*
-h1 {
-  margin-bottom: 0px;
+.entry {
+  color: #333333;
 }
-
-article.excerpt div.entry {
-  color:#333333;
-  cursor: pointer;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5px;
-}
-
-article.excerpt div.entry:hover {
-  background: #77ccff;
-}
-*/
 
 .container {
   position:relative;
@@ -119,6 +105,6 @@ article.excerpt div.entry:hover {
 }
 
 .expand {
-  height: 100%;
+  height: 80%;
   width: auto;
 }
