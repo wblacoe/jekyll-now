@@ -85,14 +85,14 @@ h1 {
   margin-bottom: 0px;
 }
 
-article.excerpt div.entry:hover {
-  background: #77ccff;
-}
-
-article.excerpt div.entry {
+article.excerpt entry {
   color:#333333;
   cursor: pointer;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+article.excerpt entry:hover {
+  background: #77ccff;
 }
