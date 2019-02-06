@@ -85,13 +85,14 @@ h1 {
   margin-bottom: 0px;
 }
 
-.entry:hover {
-  background: #aaccff;
+article div.entry:hover {
+  background: #77ddff;
 }
 
-.entry {
+article div.entry {
   color:#333333;
   cursor: pointer;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
