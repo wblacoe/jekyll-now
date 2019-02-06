@@ -85,6 +85,11 @@ h1 {
   margin-bottom: 5px;
 }
 
-a.entry:hover{
+.entry:hover {
   background: #50b0ff;
+}
+
+.entry {
+  color:#333333;
+  cursor: pointer;
 }

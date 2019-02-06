@@ -5,21 +5,21 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-		<a class="entry" href="{{ site.baseurl }}{{ post.url }}" style="color:#333333; ">
-			<!--<div class="entry">-->
-				<table width="100%">
-					<tr valign="top">
-						<td>
-							<h1>{{ post.title }}</h1>
-						</td>
-						<td width="160">
-							<span class="post-date" style="float:right;"><i>{{ post.date | date_to_string }}</i></span>
-						</td>
-					</tr>
-				</table>
-			<!--</div>-->
-			{{ post.excerpt | truncatewords:80 }}
-		</a>
+		<!--<a class="entry" href="{{ site.baseurl }}{{ post.url }}" style="color:#333333;">-->
+		<div class="entry">
+			<table width="100%">
+				<tr valign="top">
+					<td>
+						<h1>{{ post.title }}</h1>
+					</td>
+					<td width="160">
+						<span class="post-date" style="float:right;"><i>{{ post.date | date_to_string }}</i></span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		{{ post.excerpt | truncatewords:80 }}
+		<!--</a>-->
 		<br><br>
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
