@@ -81,18 +81,44 @@
   border-left-color: darkblue;
 }
 
+/*
 h1 {
   margin-bottom: 0px;
 }
 
 article.excerpt div.entry {
   color:#333333;
-  /*cursor: pointer;
+  cursor: pointer;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 5px;*/
+  padding-bottom: 5px;
 }
 
 article.excerpt div.entry:hover {
   background: #77ccff;
+}
+*/
+
+.container {
+  position:relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.expand {
+  height: 100%;
+  width: auto;
 }
