@@ -85,7 +85,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-article.excerpt span.entry {
+article.excerpt div.entry {
   color:#333333;
   cursor: pointer;
   padding-left: 15px;
@@ -93,6 +93,6 @@ article.excerpt span.entry {
   padding-bottom: 5px;
 }
 
-article.excerpt span.entry:hover {
+article.excerpt div.entry:hover {
   background: #77ccff;
 }
