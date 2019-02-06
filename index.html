@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 		<!--<a class="entry" href="{{ site.baseurl }}{{ post.url }}" style="color:#333333;">-->
-		<div class="entry" onclick="window.location.href="{{ site.baseurl }}{{ post.url }}">
+		<div class="entry" onclick="window.location="{{ site.baseurl }}{{ post.url }}">
 			<table width="100%">
 				<tr valign="top">
 					<td>
