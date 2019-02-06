@@ -85,11 +85,11 @@ h1 {
   margin-bottom: 0px;
 }
 
-article div.entry:hover {
+article.excerpt div.entry:hover {
   background: #77ccff;
 }
 
-article div.entry {
+article.excerpt div.entry {
   color:#333333;
   cursor: pointer;
   padding-left: 15px;
