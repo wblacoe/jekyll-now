@@ -78,9 +78,13 @@
 }
 
 .tag:hover::after {
-   border-left-color: darkblue;
+  border-left-color: darkblue;
 }
 
 h1 {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+a.entry:hover{
+  background: #50b0ff;
 }
