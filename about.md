@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+William is a computational linguist working in NLP. He likes to record his thoughts and experiences on this website so that others can get to know him better.
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<!-- www.123formbuilder.com script begins here --><script type="text/javascript" defer src="//www.123formbuilder.com/embed/4602925.js" data-role="form" data-default-width="650px"></script><!-- www.123formbuilder.com script ends here -->
