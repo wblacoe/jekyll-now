@@ -5,7 +5,8 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="excerpt">
-		<a class="entry" href="{{ site.baseurl }}{{ post.url }}">
+		<a href="{{ site.baseurl }}{{ post.url }}">
+			<span class="entry">
 		<!--<div class="entry" onclick="window.location="{{ site.baseurl }}{{ post.url }}">-->
 			<table width="100%">
 				<tr valign="top">
@@ -19,6 +20,7 @@ layout: default
 			</table>
 			{{ post.excerpt | truncatewords:80 }}
 		<!--</div>-->
+			</span>
 		</a>
 		<!--<br><br>
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
