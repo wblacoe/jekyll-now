@@ -1,12 +1,19 @@
 ---
 layout: post
-title: Hexagonal Puzzle
+title: Hexagonal Puzzle using JavaScript
 tags: [Computer Games, JavaScript]
 ---
 
 <p>
 <img class="floatright" width="50%" src="/images/hexaPuzzleWilliamSolution.png.png" />
 jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias jasopdj aopsijd opaidj opaj dopajdop ias 
+- HTML
+- JavaScript
+- cookies
+- instructions
+  - move
+  - rotate
+  - mirror
 </p>
 
 <iframe src="/hexaPuzzle/index.html" style="width:720px; height:500px;"></iframe>
