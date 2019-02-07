@@ -98,6 +98,7 @@
   text-align: center;
   opacity: 0;
   transition: .5s ease;
+  padding-top: 15%;
 }
 
 .overlay:hover {
@@ -107,5 +108,5 @@
 .expand {
   height: 80%;
   width: auto;
-  transform:translateY(15%);
+  /*transform:translateY(15%);*/
 }
