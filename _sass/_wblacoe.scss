@@ -98,6 +98,7 @@
   text-align: center;
   opacity: 0;
   transition: .5s ease;
+  vertical-align: middle;
 }
 
 .overlay:hover {
@@ -105,7 +106,6 @@
 }
 
 .expand {
-  height: 60%;
-  max-width: 200px;
-  vertical-align: middle;
+  width: 200px;
+  height: auto;
 }
