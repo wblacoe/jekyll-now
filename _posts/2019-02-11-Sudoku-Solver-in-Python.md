@@ -5,7 +5,7 @@ tags: [Games, Programming, Python]
 ---
 
 <img class="floatright" width="50%" src="/images/sudoku.png" />
-Ever since I was introduced to the sudoku puzzles I enjoyed working on them. It has always been a nice distraction and a good way to practise mental focus. Initially my attempts at solving them were quite random, but over time my solution methods became more systematic. Recently I wanted to see if I could teach a computer to do what I do when confronted with a sudoku puzzle. So I needed to formally express the routine that had become quite intuitive for me.
+Ever since I was introduced to the sudoku puzzles I enjoyed working on them. It has always been a nice distraction and a good way to practise mental focus. Initially my attempts at solving them were quite random, but over time my solution methods became more systematic. Recently I wanted to see if I could teach a computer to do what I do when confronted with a sudoku puzzle (instead of using a brute force algorithm). So I needed to formally express the routine that had become quite intuitive for me.
 
 Initially certain cells on the board are filled with the numbers that are assumed to be correct. After that the board is scanned for opportunities to infer the numbers in other cells. There are 3 types of inferences that I use. The first two are deterministic, that is, they only take steps that are necessarily correct. The third, on the other hand, guesses the number of an empty cell. This randomised step is only taken when the first two do not suffice to solve the entire puzzle. In some more detail, this is what the 3 steps do:
 
@@ -23,3 +23,5 @@ You can **try out the program below**. The program has already started with an e
 <iframe src="https://trinket.io/embed/python/186a44617b?outputOnly=true&runOption=run&start=result" width="100%" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 To view the <b>code</b> go to this [repository](https://github.com/wblacoe/wblacoe.github.io/sudoku_solver).
+
+After I finished implementing my own sudoku solver I was curious to see other people's approaches. It was crazy to find out how much deeper this rabbit hole can go. There are more thought-out methods to solve such puzzles like the 'X-Wing' and 'Swordfish' methods that I found on [this website](http://sudokudragon.com/sudokustrategy.htm). I wonder if such methods make it possible to solve any sudoku deterministically, i.e., without any guessing.
