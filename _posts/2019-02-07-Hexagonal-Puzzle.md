@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hexagonal Puzzle in JavaScript
-tags: [Computer Games, JavaScript]
+tags: [Games, Programming, JavaScript]
 ---
 
 <img class="floatleft" width="50%" src="/images/hexaPuzzleWilliamSolution.png" />
