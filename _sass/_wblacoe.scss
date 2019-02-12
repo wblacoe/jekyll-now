@@ -13,10 +13,14 @@
 .floatleft{
   float: left;
   margin-right: 20px;
+  width: 50%;
+  max-height: 300px;
 }
 .floatright{
   float: right;
   margin-left: 20px;
+  width: 50%;
+  max-height: 300px;
 }
 
 
@@ -113,3 +117,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.post-date {
+  float: right;
+}
+

@@ -4,7 +4,7 @@ title: Hexagonal Puzzle in JavaScript
 tags: [Computer Science, Games, Programming, JavaScript]
 ---
 
-<img class="floatleft" width="50%" src="/images/hexaPuzzleWilliamSolution.png" />
+<img class="floatleft" src="/images/hexaPuzzleWilliamSolution.png" />
 I decided that beyond HTML, CSS and PHP there is something missing from my experience with web-related programming. I wanted to learn more about JavaScript as well. So I gave myself a challenge. I wanted to program an old puzzle that I received from my parents a long time ago, which was in a plastic form. I had already programmed it in Java which I am a lot more comfortable with.
 
 This practical approach is usually the most productive when learning programming languages and paradigms. In the process of implementing the game I learned how JavaScript handles

@@ -4,7 +4,7 @@ title: OpenGL Scene in C++
 tags: [Computer Science, Computer Graphics, Programming, C++]
 ---
 
-<img class="floatleft" width="50%" src="/images/zwerg.png" />
+<img class="floatleft" src="/images/zwerg.png" />
 bla aosidj asopidj paosidjp oasjdop aisjd bla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjdbla aosidj asopidj paosidjp oasjdop aisjd
 
 <center>
