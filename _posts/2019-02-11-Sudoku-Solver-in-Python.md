@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sudoku Solver in Python
-tags: [Games, Programming, Python]
+tags: [Computer Science, Games, Programming, Python]
 ---
 
 <img class="floatright" width="50%" src="/images/sudoku.png" />
@@ -22,6 +22,6 @@ You can **try out the program below**. The program has already started with an e
 
 <iframe src="https://trinket.io/embed/python/186a44617b?outputOnly=true&runOption=run&start=result" width="100%" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-To view the <b>code</b> go to this [repository](https://github.com/wblacoe/wblacoe.github.io/sudoku_solver).
+To view the <b>code</b> go to this [repository](https://github.com/wblacoe/sudoku_solver).
 
 After I finished implementing my own sudoku solver I was curious to see other people's approaches. It was crazy to find out how much deeper this rabbit hole can go. There are more thought-out methods to solve such puzzles like the 'X-Wing' and 'Swordfish' methods that I found on [this website](http://sudokudragon.com/sudokustrategy.htm). I wonder if such methods make it possible to solve any sudoku deterministically, i.e., without any guessing.
