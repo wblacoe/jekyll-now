@@ -1,22 +1,22 @@
 <html>
     <head>
         <title>Use jsTree</title>
-        <script src="/jstree/jquery.js">
-        </script>
-        <script src="/jstree/jquery.jstree.js">
-        </script>
+		<link rel="stylesheet" href="themes/default/style.min.css" />
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>-->
+		<script src="jquery.min.js"></script>
+		<script src="jstree.min.js"></script>
         <script>
             $(document).ready(function(){
-                $('#container').jstree();
+                $('#bla').jstree({ "plugins": [ "wholerow" ] })
             });
         </script>
     </head>
     <body>
-<div id="container">
+<div id="bla">
   <ul>
-    <li>Root node
+    <li class="jstree-open">Root node
       <ul>
-        <li>Child node 1</li>
+        <li class="jstree-leaf">Child node 1</li>
         <li>Child node 2</li>
       </ul>
     </li>
