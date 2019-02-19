@@ -5,7 +5,7 @@ tags: [Computer Science, Computer Graphics, Programming, C++]
 ---
 
 <img class="floatleft" src="/images/zwerg.png" />
-During my time as a student I attended several courses on 3D computer graphics. [One of them](http://www.gdv.informatik.uni-frankfurt.de/index.php?m=2&sm=3&c=%2Flehre%2Fws2006%2FOpenGL.html) was on the mathematical basics and their implementation in OpenGL. It was fun to work on my visual imagination and spacial reasoning. After going over linear algebra again, we developed our intuitions about the geometry and trigonometry required for creating some of our own little worlds.
+During my time as a student I attended several courses on 3D computer graphics. One of them was on the mathematical basics and their implementation in OpenGL. It was fun to work on my visual imagination and spacial reasoning. After going over linear algebra again, we developed our intuitions about the geometry and trigonometry required for creating some of our own little worlds.
 
 The final project was called Wonderland. It was supposed to show various basic shapes and bodies, some of them texturised. A torus definitely needed to be a part of it, as it was the professors favourite 3D body. Some elements of the scene should be animated. The camera was to move around the scene, showing all of the elements, and return to its original position. On its ride the camera was supposed to move through a tunnel in which a light was to switch on only during the traversal. Besides that, there was to be some transparency, and diffuse and specular lighting.
 
