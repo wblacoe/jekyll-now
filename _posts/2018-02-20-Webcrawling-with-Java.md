@@ -5,11 +5,11 @@ tags: [Computer Science, Programming, Java]
 ---
 
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
@@ -362,12 +362,12 @@ tags: [Computer Science, Programming, Java]
 </node>
 </textarea>
 
-<div id="ulli">
-<ul><li>
+<div id="ulli" style="width:100%">
+<ul><li class="jstree-open">
   ICD-10-GM
-  <ul><li>
+  <ul><li class="jstree-open">
     A00-B99
-    <ul><li>
+    <ul><li class="jstree-open">
       titel
       <ul><li>
         Kapitel I
@@ -388,9 +388,9 @@ tags: [Computer Science, Programming, Java]
         Keimträger oder -ausscheider, einschließlich Verdachtsfällen (Z22.-) Bestimmte lokalisierte Infektionen - siehe im entsprechenden Kapitel des jeweiligen Körpersystems Infektiöse und parasitäre Krankheiten, die Schwangerschaft, Geburt und Wochenbett komplizieren [ausgenommen Tetanus in diesem Zeitabschnitt] (O98.-) Infektiöse und parasitäre Krankheiten, die spezifisch für die Perinatalperiode sind [ausgenommen Tetanus neonatorum, Keuchhusten, Syphilis connata, perinatale Gonokokkeninfektion und perinatale HIV-Krankheit] (P35-P39) Grippe und sonstige akute Infektionen der Atemwege (J00-J22)
       </li></ul>
     </li></ul>
-    <ul><li>
+    <ul><li class="jstree-open">
       A00-A09
-      <ul><li>
+      <ul><li class="jstree-open">
         titel
         <ul><li>
           Infektiöse Darmkrankheiten
@@ -513,15 +513,15 @@ tags: [Computer Science, Programming, Java]
           </li></ul>
         </li></ul>
       </li></ul>
-      <ul><li>
+      <ul><li class="jstree-open">
         A02.-
-        <ul><li>
+        <ul><li class="jstree-open">
           titel
           <ul><li>
             Sonstige Salmonelleninfektionen
           </li></ul>
         </li></ul>
-        <ul><li>
+        <ul><li class="jstree-open">
           inklusive
           <ul><li>
             Infektion oder Lebensmittelvergiftung durch Salmonellen außer durch Salmonella typhi und Salmonella paratyphi
