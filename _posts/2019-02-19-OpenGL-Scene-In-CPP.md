@@ -4,7 +4,7 @@ title: OpenGL Scene in C++
 tags: [Computer Science, Computer Graphics, Programming, C++]
 ---
 
-<img class="floatleft" src="/images/zwerg.png" />
+<img class="floatright" src="/images/zwerg.png" />
 During my time as a student I attended several courses on 3D computer graphics. One of them was on the mathematical basics and their implementation in OpenGL. It was fun to work on my visual imagination and spacial reasoning. After going over linear algebra again, we developed our intuitions about the geometry and trigonometry required for creating some of our own little worlds.
 
 The final project was called Wonderland. It was supposed to show various basic shapes and bodies, some of them texturised. A torus definitely needed to be a part of it, as it was the professors favourite 3D body. Some elements of the scene should be animated. The camera was to move around the scene, showing all of the elements, and return to its original position. On its ride the camera was supposed to move through a tunnel in which a light was to switch on only during the traversal. Besides that, there was to be some transparency, and diffuse and specular lighting.
@@ -15,6 +15,6 @@ What I call a scene element is, for example, a torus, a dwarf, a bench, etc. eac
 
 Below is a recording of the camera ride through my Wonderland project from my time as a student:
 
-<iframe class="centered" width="560" height="315" src="https://www.youtube.com/embed/PNN-3Si1Nys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PNN-3Si1Nys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To view the **code** go to this [repository](https://github.com/wblacoe/opengl_wonderland).
