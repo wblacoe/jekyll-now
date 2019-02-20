@@ -1,17 +1,15 @@
 ---
 layout: post
-title: Web-Scraping with Java
+title: Webcrawling with Java
 tags: [Computer Science, Programming, Java]
 ---
 
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
-During my time as a student I attended several courses on 3D computer graphics. One of them was on the mathematical basics and their implementation in OpenGL. It was fun to work on my visual imagination and spacial reasoning. After going over linear algebra again, we developed our intuitions about the geometry and trigonometry required for creating some of our own little worlds.
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-The final project was called Wonderland. It was supposed to show various basic shapes and bodies, some of them texturised. A torus definitely needed to be a part of it, as it was the professors favourite 3D body. Some elements of the scene should be animated. The camera was to move around the scene, showing all of the elements, and return to its original position. On its ride the camera was supposed to move through a tunnel in which a light was to switch on only during the traversal. Besides that, there was to be some transparency, and diffuse and specular lighting.
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-To start this project I imagined a scene that a little story: At night a group of garden dwarves meet in the park and dance in a circle. This narrative served as an anchor for my filling the scene, rather than creating a random collection of abstract shapes. I did not need to draw anything on paper because I was able to have a lively, colourful image of the scene in my mind. It was also simple enough to create one element at a time.
-
-What I call a scene element is, for example, a torus, a dwarf, a bench, etc. each of these bodies are made of elementary 3D shapes, such as cuboids, cones, frustums and spheres. All of these are a collection of triangles, the only polygon which is guaranteed to be planar. Dividing the programmatic creation into distinct levels of abstraction is helpful, so that lower-level bodies can be reused over and over for building higher-level bodies, just with different parameter values for size, position, orientation, material, colour and/or texturisation.
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 
