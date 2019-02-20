@@ -24,7 +24,7 @@ What I call a scene element is, for example, a torus, a dwarf, a bench, etc. eac
 	});
 </script>
 
-<textarea>
+<textarea cols="95" rows="20">
 <node>
   <url>ICD-10-GM.html</url>
   <content>ICD-10-GM</content>
@@ -368,7 +368,7 @@ What I call a scene element is, for example, a torus, a dwarf, a bench, etc. eac
 <ul>
   <li>ICD-10-GM</li>
   <ul>
-    <li>A00-B99</li>
+    <li>A00-B99
     <ul>
       <li>titel</li>
       <ul>
@@ -377,7 +377,7 @@ What I call a scene element is, for example, a torus, a dwarf, a bench, etc. eac
       <ul>
         <li>Bestimmte infektiöse und parasitäre Krankheiten</li>
       </ul>
-    </ul>
+    </ul></li>
     <ul>
       <li>inklusive</li>
       <ul>
