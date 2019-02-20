@@ -364,335 +364,335 @@ tags: [Computer Science, Programming, Java]
 
 <div id="ulli">
 <ul>
-  <li>ICD-10-GM</li>
+  <li>ICD-10-GM  
   <ul>
-    <li>A00-B99
+    <li>A00-B99  
     <ul>
-      <li>titel</li>
+      <li>titel  
       <ul>
-        <li>Kapitel I</li>
-      </ul>
+        <li>Kapitel I  
+      </ul></li>
       <ul>
-        <li>Bestimmte infektiöse und parasitäre Krankheiten</li>
-      </ul>
+        <li>Bestimmte infektiöse und parasitäre Krankheiten  
+      </ul></li>
     </ul></li>
     <ul>
-      <li>inklusive</li>
+      <li>inklusive  
       <ul>
-        <li>Krankheiten, die allgemein als ansteckend oder übertragbar anerkannt sind</li>
-      </ul>
-    </ul>
+        <li>Krankheiten, die allgemein als ansteckend oder übertragbar anerkannt sind  
+      </ul></li>
+    </ul></li>
     <ul>
-      <li>exklusive</li>
+      <li>exklusive  
       <ul>
-        <li>Keimträger oder -ausscheider, einschließlich Verdachtsfällen (Z22.-) Bestimmte lokalisierte Infektionen - siehe im entsprechenden Kapitel des jeweiligen Körpersystems Infektiöse und parasitäre Krankheiten, die Schwangerschaft, Geburt und Wochenbett komplizieren [ausgenommen Tetanus in diesem Zeitabschnitt] (O98.-) Infektiöse und parasitäre Krankheiten, die spezifisch für die Perinatalperiode sind [ausgenommen Tetanus neonatorum, Keuchhusten, Syphilis connata, perinatale Gonokokkeninfektion und perinatale HIV-Krankheit] (P35-P39) Grippe und sonstige akute Infektionen der Atemwege (J00-J22)</li>
-      </ul>
-    </ul>
+        <li>Keimträger oder -ausscheider, einschließlich Verdachtsfällen (Z22.-) Bestimmte lokalisierte Infektionen - siehe im entsprechenden Kapitel des jeweiligen Körpersystems Infektiöse und parasitäre Krankheiten, die Schwangerschaft, Geburt und Wochenbett komplizieren [ausgenommen Tetanus in diesem Zeitabschnitt] (O98.-) Infektiöse und parasitäre Krankheiten, die spezifisch für die Perinatalperiode sind [ausgenommen Tetanus neonatorum, Keuchhusten, Syphilis connata, perinatale Gonokokkeninfektion und perinatale HIV-Krankheit] (P35-P39) Grippe und sonstige akute Infektionen der Atemwege (J00-J22)  
+      </ul></li>
+    </ul></li>
     <ul>
-      <li>A00-A09</li>
+      <li>A00-A09  
       <ul>
-        <li>titel</li>
+        <li>titel  
         <ul>
-          <li>Infektiöse Darmkrankheiten</li>
-        </ul>
-      </ul>
+          <li>Infektiöse Darmkrankheiten  
+        </ul></li>
+      </ul></li>
       <ul>
-        <li>A00.-</li>
+        <li>A00.-  
         <ul>
-          <li>titel</li>
+          <li>titel  
           <ul>
-            <li>Cholera</li>
-          </ul>
-        </ul>
+            <li>Cholera  
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A00.0</li>
+          <li>A00.0  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Cholera durch Vibrio cholerae O:1, Biovar cholerae</li>
-            </ul>
-          </ul>
+              <li>Cholera durch Vibrio cholerae O:1, Biovar cholerae  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Klassische Cholera</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Klassische Cholera  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A00.1</li>
+          <li>A00.1  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Cholera durch Vibrio cholerae O:1, Biovar eltor</li>
-            </ul>
-          </ul>
+              <li>Cholera durch Vibrio cholerae O:1, Biovar eltor  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>El-Tor-Cholera</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>El-Tor-Cholera  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A00.9</li>
+          <li>A00.9  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Cholera, nicht näher bezeichnet</li>
-            </ul>
-          </ul>
-        </ul>
-      </ul>
+              <li>Cholera, nicht näher bezeichnet  
+            </ul></li>
+          </ul></li>
+        </ul></li>
+      </ul></li>
       <ul>
-        <li>A01.-</li>
+        <li>A01.-  
         <ul>
-          <li>titel</li>
+          <li>titel  
           <ul>
-            <li>Typhus abdominalis und Paratyphus</li>
-          </ul>
-        </ul>
+            <li>Typhus abdominalis und Paratyphus  
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A01.0</li>
+          <li>A01.0  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Typhus abdominalis</li>
-            </ul>
-          </ul>
+              <li>Typhus abdominalis  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Infektion durch Salmonella typhi</li>
-            </ul>
+              <li>Infektion durch Salmonella typhi  
+            </ul></li>
             <ul>
-              <li>Typhoides Fieber</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Typhoides Fieber  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A01.1</li>
+          <li>A01.1  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Paratyphus A</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Paratyphus A  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A01.2</li>
+          <li>A01.2  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Paratyphus B</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Paratyphus B  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A01.3</li>
+          <li>A01.3  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Paratyphus C</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Paratyphus C  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A01.4</li>
+          <li>A01.4  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Paratyphus, nicht näher bezeichnet</li>
-            </ul>
-          </ul>
+              <li>Paratyphus, nicht näher bezeichnet  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Infektion durch Salmonella paratyphi o.n.A.</li>
-            </ul>
-          </ul>
-        </ul>
-      </ul>
+              <li>Infektion durch Salmonella paratyphi o.n.A.  
+            </ul></li>
+          </ul></li>
+        </ul></li>
+      </ul></li>
       <ul>
-        <li>A02.-</li>
+        <li>A02.-  
         <ul>
-          <li>titel</li>
+          <li>titel  
           <ul>
-            <li>Sonstige Salmonelleninfektionen</li>
-          </ul>
-        </ul>
+            <li>Sonstige Salmonelleninfektionen  
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>inklusive</li>
+          <li>inklusive  
           <ul>
-            <li>Infektion oder Lebensmittelvergiftung durch Salmonellen außer durch Salmonella typhi und Salmonella paratyphi</li>
-          </ul>
-        </ul>
+            <li>Infektion oder Lebensmittelvergiftung durch Salmonellen außer durch Salmonella typhi und Salmonella paratyphi  
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A02.0</li>
+          <li>A02.0  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Salmonellenenteritis</li>
-            </ul>
-          </ul>
+              <li>Salmonellenenteritis  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Enteritis infectiosa durch Salmonellen</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Enteritis infectiosa durch Salmonellen  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A02.1</li>
+          <li>A02.1  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Salmonellensepsis</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Salmonellensepsis  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A02.2</li>
+          <li>A02.2  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Lokalisierte Salmonelleninfektionen</li>
-            </ul>
-          </ul>
+              <li>Lokalisierte Salmonelleninfektionen  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Arthritis+ (M01.3-*) durch Salmonellen</li>
-            </ul>
+              <li>Arthritis+ (M01.3-*) durch Salmonellen  
+            </ul></li>
             <ul>
-              <li>Meningitis+ (G01*) durch Salmonellen</li>
-            </ul>
+              <li>Meningitis+ (G01*) durch Salmonellen  
+            </ul></li>
             <ul>
-              <li>Osteomyelitis+ (M90.2-*) durch Salmonellen</li>
-            </ul>
+              <li>Osteomyelitis+ (M90.2-*) durch Salmonellen  
+            </ul></li>
             <ul>
-              <li>Pneumonie+ (J17.0*) durch Salmonellen</li>
-            </ul>
+              <li>Pneumonie+ (J17.0*) durch Salmonellen  
+            </ul></li>
             <ul>
-              <li>Tubulointerstitielle Nierenkrankheit+ (N16.0*) durch Salmonellen</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Tubulointerstitielle Nierenkrankheit+ (N16.0*) durch Salmonellen  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A02.8</li>
+          <li>A02.8  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Sonstige näher bezeichnete Salmonelleninfektionen</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Sonstige näher bezeichnete Salmonelleninfektionen  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A02.9</li>
+          <li>A02.9  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Salmonelleninfektion, nicht näher bezeichnet</li>
-            </ul>
-          </ul>
-        </ul>
-      </ul>
+              <li>Salmonelleninfektion, nicht näher bezeichnet  
+            </ul></li>
+          </ul></li>
+        </ul></li>
+      </ul></li>
       <ul>
-        <li>A03.-</li>
+        <li>A03.-  
         <ul>
-          <li>titel</li>
+          <li>titel  
           <ul>
-            <li>Shigellose [Bakterielle Ruhr]</li>
-          </ul>
-        </ul>
+            <li>Shigellose [Bakterielle Ruhr]  
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A03.0</li>
+          <li>A03.0  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Shigellose durch Shigella dysenteriae</li>
-            </ul>
-          </ul>
+              <li>Shigellose durch Shigella dysenteriae  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Shigellose durch Shigellen der Gruppe A [Shiga-Kruse-Ruhr]</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Shigellose durch Shigellen der Gruppe A [Shiga-Kruse-Ruhr]  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A03.1</li>
+          <li>A03.1  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Shigellose durch Shigella flexneri</li>
-            </ul>
-          </ul>
+              <li>Shigellose durch Shigella flexneri  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Shigellose durch Shigellen der Gruppe B</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Shigellose durch Shigellen der Gruppe B  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A03.2</li>
+          <li>A03.2  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Shigellose durch Shigella boydii</li>
-            </ul>
-          </ul>
+              <li>Shigellose durch Shigella boydii  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Shigellose durch Shigellen der Gruppe C</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Shigellose durch Shigellen der Gruppe C  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A03.3</li>
+          <li>A03.3  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Shigellose durch Shigella sonnei</li>
-            </ul>
-          </ul>
+              <li>Shigellose durch Shigella sonnei  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Shigellose durch Shigellen der Gruppe D</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Shigellose durch Shigellen der Gruppe D  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A03.8</li>
+          <li>A03.8  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Sonstige Shigellosen</li>
-            </ul>
-          </ul>
-        </ul>
+              <li>Sonstige Shigellosen  
+            </ul></li>
+          </ul></li>
+        </ul></li>
         <ul>
-          <li>A03.9</li>
+          <li>A03.9  
           <ul>
-            <li>titel</li>
+            <li>titel  
             <ul>
-              <li>Shigellose, nicht näher bezeichnet</li>
-            </ul>
-          </ul>
+              <li>Shigellose, nicht näher bezeichnet  
+            </ul></li>
+          </ul></li>
           <ul>
-            <li>inklusive</li>
+            <li>inklusive  
             <ul>
-              <li>Bakterielle Ruhr [Bakterielle Dysenterie] o.n.A.</li>
-            </ul>
-          </ul>
-        </ul>
-      </ul>
-    </ul>
-  </ul>
-</ul>
+              <li>Bakterielle Ruhr [Bakterielle Dysenterie] o.n.A.  
+            </ul></li>
+          </ul></li>
+        </ul></li>
+      </ul></li>
+    </ul></li>
+  </ul></li>
+</ul></li>
 </div>
 
 To view the **code** go to this [repository](https://github.com/wblacoe/...).
