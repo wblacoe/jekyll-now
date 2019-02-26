@@ -1,16 +1,21 @@
 ---
 layout: post
-title: Webcrawling with Java
+title: Web-scraping with Java
 tags: [Computer Science, Programming, Java]
+permalink: /temp/
 ---
 
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+. website for German version of ICD 10
+. different extractors for different depths
+. JSoup parses the HTML so that I don't have to scan the text manually/in a flat way. I can jump to certain elements and traverse the tree in a systematic way.
+. I saw that for each item there is includes, excludes and a description.
+. I eye-balled some of the HTML files to understand their structure. Then I used ad hoc methods for extracting the data inside the HTML files at each level.
+. Each non-leaf document had a link to a webpage at a lower level. level depth = 3.
+. below an excerpt of the scraped data is shown in a single XML tree with very generic tags: node, url, content
+. below that is the same excerpt shown in a tree that can be expanded and collapsed because it is written in JavaScript (LINK to jstree.com).
+. to view the code go to LINK repository.
 
 
 <link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
