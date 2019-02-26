@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Web-scraping with Java
 tags: [Computer Science, Programming, Java]
 permalink: /temp/
