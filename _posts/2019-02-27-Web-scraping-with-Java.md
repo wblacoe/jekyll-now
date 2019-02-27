@@ -4,6 +4,15 @@ title: Web-scraping with Java
 tags: [Computer Science, Programming, Java]
 ---
 
+<link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
+<script src="/jstree/jquery.min.js"></script>
+<script src="/jstree/jstree.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#ulli').jstree()
+	});
+</script>
+
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
 Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and scrape some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD) found [here](http://www.icd-code.de/icd/code/ICD-10-GM.html). It can be thought of as semi-structured online data.
 
@@ -17,16 +26,6 @@ The more difficult and unstructured part is extracting the text for each data po
 - The third and final extractor is similar to the second except that it need not look for further subordinated documents. It also needs to be more flexible in parsing the HTML code because at this level more divers formatting is encountered.
 
 My program's parsing methods are ad hoc because I wrote them having only eye-balled the HTML documents. After some trial and error the processing ran smoothly and culminated in a well-formed XML document. Below is an excerpt of the entire tree, first as XML text and below that as an interactive tree that you can expand and collapse. I created the latter using a JavaScript tool called [jsTree](http://jstree.com).
-
-
-<link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
-<script src="/jstree/jquery.min.js"></script>
-<script src="/jstree/jstree.min.js"></script>
-<script>
-	$(document).ready(function(){
-		$('#ulli').jstree()
-	});
-</script>
 
 <textarea cols="95" rows="20">
 <node>
@@ -701,4 +700,4 @@ My program's parsing methods are ad hoc because I wrote them having only eye-bal
 </li></ul>
 </div>
 
-To view the **code** of my web-scraper go to [this repository](https://github.com/wblacoe/...).
+To view the **code** of my web-scraper go to [this repository](https://github.com/wblacoe/icd10_scraper).
