@@ -1,23 +1,22 @@
 ---
-layout: page
+layout: post
 title: Web-scraping with Java
 tags: [Computer Science, Programming, Java]
-permalink: /temp/
 ---
 
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
-To practise some web-scraping I decided to 
+Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and scrape some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD) found [here](http://www.icd-code.de/icd/code/ICD-10-GM.html). It can be thought of as semi-structured online data.
 
+The initial page lists the 22 chapters of the ICD 10. Each chapter consists of bundles of sections on three levels of granularity. Scarlet fever, for example is found by selecting chapter I for "certain infectious and parasitic diseases", which is comprised of sections A00-B99. Next going to sections A30-A49 for "other bacterial diseases", and you find section A38 for scarlet fever. Each section and bundle of sections is on its own web page.
 
-. website for German version of ICD 10
-. different extractors for different depths
-. JSoup parses the HTML so that I don't have to scan the text manually/in a flat way. I can jump to certain elements and traverse the tree in a systematic way.
-. I saw that for each item there is includes, excludes and a description.
-. I eye-balled some of the HTML files to understand their structure. Then I used ad hoc methods for extracting the data inside the HTML files at each level.
-. Each non-leaf document had a link to a webpage at a lower level. level depth = 3.
-. below an excerpt of the scraped data is shown in a single XML tree with very generic tags: node, url, content
-. below that is the same excerpt shown in a tree that can be expanded and collapsed because it is written in JavaScript (LINK to jstree.com).
-. to view the code go to LINK repository.
+All sections are thus leaves in a tree, and the initial page showing the chapter index is the tree's root. Intermediate tree nodes group related diseases and have a description of their own. Generally speaking, each node has a title and a description, and some have a description of excluded and included diseases. The goal of my web-scraping program is to collect all these data points from the website and store them in an XML document. Traversing the site is simple because of its tree-shaped structure: Each non-leaf web document contains hyperlinks to its constituent documents.
+
+The more difficult and unstructured part is extracting the text for each data point from the webpages' HTML code.  Since this differs at each level/generation in the tree, I created one extractor object per level:
+- The first extractor handles the root by going through each entry in the table of chapters.
+- The second extractor grabs the title, a description, the "included" and "excluded" information if it is available, and then the list of lower-order (bundles of) sections. This extractor is applied to two subsequent levels in the tree, as they are conceptually equal.
+- The third and final extractor is similar to the second except that it need not look for further subordinated documents. It also needs to be more flexible in parsing the HTML code because at this level more divers formatting is encountered.
+
+My program's parsing methods are ad hoc because I wrote them having only eye-balled the HTML documents. After some trial and error the processing ran smoothly and culminated in a well-formed XML document. Below is an excerpt of the entire tree, first as XML text and below that as an interactive tree that you can expand and collapse. I created the latter using a JavaScript tool called [jsTree](http://jstree.com).
 
 
 <link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
@@ -702,4 +701,4 @@ To practise some web-scraping I decided to
 </li></ul>
 </div>
 
-To view the **code** go to this [repository](https://github.com/wblacoe/...).
+To view the **code** of my web-scraper go to [this repository](https://github.com/wblacoe/...).
