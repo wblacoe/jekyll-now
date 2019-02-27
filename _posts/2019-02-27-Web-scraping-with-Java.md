@@ -4,15 +4,6 @@ title: Web-scraping with Java
 tags: [Computer Science, Programming, Java]
 ---
 
-<link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
-<script src="/jstree/jquery.min.js"></script>
-<script src="/jstree/jstree.min.js"></script>
-<script>
-	$(document).ready(function(){
-		$('#ulli').jstree()
-	});
-</script>
-
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
 Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and scrape some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD) found [here](http://www.icd-code.de/icd/code/ICD-10-GM.html). It can be thought of as semi-structured online data.
 
@@ -701,3 +692,12 @@ My program's parsing methods are ad hoc because I wrote them having only eye-bal
 </div>
 
 To view the **code** of my web-scraper go to [this repository](https://github.com/wblacoe/icd10_scraper).
+
+<link rel="stylesheet" href="/jstree/themes/default/style.min.css" />
+<script src="/jstree/jquery.min.js"></script>
+<script src="/jstree/jstree.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#ulli').jstree()
+	});
+</script>
