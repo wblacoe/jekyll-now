@@ -5,9 +5,9 @@ tags: [Computer Science, Programming, Java]
 ---
 
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
-Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and scrape some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD) found <a href="http://www.icd-code.de/icd/code/ICD-10-GM.html">here</a>. It can be thought of as semi-structured online data.
+Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and collect some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD). It can be thought of as semi-structured online data.
 
-The initial page lists the 22 chapters of the ICD 10. Each chapter consists of bundles of sections on three levels of granularity. Scarlet fever, for example is found by selecting chapter I for "certain infectious and parasitic diseases", which is comprised of sections A00-B99. Next going to sections A30-A49 for "other bacterial diseases", and you find section A38 for scarlet fever. Each section and bundle of sections is on its own web page.
+[The initial page](http://www.icd-code.de/icd/code/ICD-10-GM.html) lists the 22 chapters of the ICD 10. Each chapter consists of bundles of sections on three levels of granularity. Scarlet fever, for example is found by selecting chapter I for "certain infectious and parasitic diseases", which is comprised of sections A00-B99. Next going to sections A30-A49 for "other bacterial diseases", and you find section A38 for scarlet fever. Each section and bundle of sections is on its own web page.
 
 All sections are thus leaves in a tree, and the initial page showing the chapter index is the tree's root. Intermediate tree nodes group related diseases and have a description of their own. Generally speaking, each node has a title and a description, and some have a description of excluded and included diseases. The goal of my web-scraping program is to collect all these data points from the website and store them in an XML document. Traversing the site is simple because of its tree-shaped structure: Each non-leaf web document contains hyperlinks to its constituent documents.
 
@@ -701,3 +701,5 @@ To view the **code** of my web-scraper go to [this repository](https://github.co
 		$('#ulli').jstree()
 	});
 </script>
+
+Update: In the mean time I also found editions of [ICD 10](https://icd.who.int/browse10/2016/en) and the recently published [ICD 11](https://icd.who.int/browse11/l-m/en) that are structured as an expandable/collapsable tree similar to the one above. The latter even comes with an [API](https://icd.who.int/icdapi).
