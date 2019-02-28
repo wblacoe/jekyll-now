@@ -5,7 +5,7 @@ tags: [Computer Science, Programming, Java]
 ---
 
 <img class="floatleft" src="/images/dukeInSpiderWeb.png" />
-Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and scrape some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD) found at ttp://www.icd-code.de/icd/code/ICD-10-GM.html It can be thought of as semi-structured online data.
+Recently I decided to practise web-scraping. At the time I was looking into medical NLP. So I thought I would combine the two and scrape some medical data. I chose the website for the German edition of the International Statistical Classification of Diseases and Related Health Problems (ICD) found <a href="http://www.icd-code.de/icd/code/ICD-10-GM.html">here</a>. It can be thought of as semi-structured online data.
 
 The initial page lists the 22 chapters of the ICD 10. Each chapter consists of bundles of sections on three levels of granularity. Scarlet fever, for example is found by selecting chapter I for "certain infectious and parasitic diseases", which is comprised of sections A00-B99. Next going to sections A30-A49 for "other bacterial diseases", and you find section A38 for scarlet fever. Each section and bundle of sections is on its own web page.
 
