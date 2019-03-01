@@ -1,0 +1,33 @@
+<html><head></head><body>
+
+<script>
+var choose = function(index){
+  document.getElementById("label" + index).style["font-weight"]="bold";
+  document.getElementById("label" + (3 - index)).style["font-weight"]="normal";
+  document.getElementById("section" + index).style["display"]="block";
+  document.getElementById("section" + (3 - index)).style["display"]="none";
+}
+</script>
+
+<table style="text-align:center; vertical-align:middle; width:100%; border-width:1px;">
+  <tr>
+    <td id="td1" onclick="choose(1); padding:5px;">
+      <span id="label1" style="cursor:pointer; font-weight:bold;">Sort By Tags</span>
+    </td>
+    <td id="td2" onclick="choose(2); padding:5px;">
+      <span id="label2" style="cursor:pointer; font-weight:normal;">Sort By Tags</span>
+    </td>
+  </tr>
+</table>
+
+<div id="section1" style="display:block;">
+section 1 asdo uashdpu ashdpaus hiasdu hoiasudhoiausd
+</div>
+
+<div id="section2" style="display:none;">
+shdpu ashdpaus hiasdu hoiasudhoiausd
+section 2 asdo uashdpu ashdpaus hiasdu hoiasudhoiausd
+</div>
+
+
+</body></html>
