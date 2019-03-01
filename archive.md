@@ -15,13 +15,13 @@ var choose = function(index){
 }
 </script>
 
-<table style="text-align:center; vertical-align:middle; width:100%; border-width:1px;">
+<table style="text-align:center; vertical-align:middle; width:100%; border-collapse:collapse; border-style:solid;" border="1">
   <tr>
-    <td id="td1" onclick="choose(1); padding:5px;">
-      <span id="label1" style="cursor:pointer; font-weight:bold;">Sort By Tags</span>
+    <td>
+      <span id="label1" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(1);">Sort By Tags</span>
     </td>
     <td id="td2" onclick="choose(2); padding:5px;">
-      <span id="label2" style="cursor:pointer; font-weight:normal;">Sort By Tags</span>
+      <span id="label1" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(1);">Sort By Months</span>
     </td>
   </tr>
 </table>
@@ -60,13 +60,13 @@ Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-i
 
 
 <br/>
-<h1>All Blog Tags
+<h1>All Blog Tags</h1>
 {% for tag in tags %}
 <a href="#{{ tag | slugify }}" class="tag"> {{ tag }} </a> &nbsp;
 {% endfor %}
 
 <br/>
-<h1>All Posts grouped by Tags
+<h1>All Posts grouped by Tags</h1>
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
 <ul class="codinfox-category-list">
@@ -95,12 +95,19 @@ Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-i
 https://gist.github.com/tuananh/7432553
 {% endcomment%}
 
-{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
-  <h3>{{ yearMonth.name }}</h3>
-    <ul>
+  <h2>{{ yearMonth.name }}</h2>
+    <ul class="codinfox-category-list">
       {% for post in yearMonth.items %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li>
+		  <h3>
+		    <a href="{{ post.url }}">
+			  {{ post.title }}
+			  <span style="font-size:small;">({{ post.date | date_to_string }})</span>
+			</a>
+		  </h3>
+		</li>
       {% endfor %}
     </ul>
 {% endfor %}
