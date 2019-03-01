@@ -11,13 +11,13 @@ var choose = function(index){
 }
 </script>
 
-<table style="text-align:center; vertical-align:middle; width:100%;">
+<table style="text-align:center; vertical-align:middle; width:100%; padding-bottom:30px;">
   <tr>
     <td>
       <span id="label1" style="cursor:pointer; font-weight:bold; padding:10px 20px 10px 20px; background-color:#0df;" onclick="choose(1);">Sort By Tags</span>
     </td>
     <td>
-      <span id="label2" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px; background-color:transparent;" onclick="choose(2);">Sort By Months</span>
+      <span id="label2" style="cursor:pointer; font-weight:bold; padding:10px 20px 10px 20px; background-color:transparent;" onclick="choose(2);">Sort By Months</span>
     </td>
   </tr>
 </table>
