@@ -8,29 +8,29 @@ permalink: /archive/
 
 <script>
 var choose = function(index){
-  document.getElementById("label" + index).style["background-color"]="#66BBFF";
-  document.getElementById("label" + (3 - index)).style["background-color"]="transparent";
-  document.getElementById("section" + index).style["display"]="block";
-  document.getElementById("section" + (3 - index)).style["display"]="none";
+  document.getElementById("square" + index).className="selectedSquare";
+  document.getElementById("square" + (1 - index)).className="notSelectedSquare";
+  document.getElementById("section" + index).className="visibleSection";
+  document.getElementById("section" + (1 - index)).className="invisibleSection";
 }
 </script>
 
-<table style="text-align:center; vertical-align:middle; width:100%; padding-bottom:70px;">
+<table style="text-align:center; vertical-align:middle; width:100%;">
   <tr>
     <td>
-      <span id="label1" style="cursor:pointer; padding:10px 20px 10px 20px; background-color:#66BBFF;" onclick="choose(1);">Sort By Tags</span>
+      <span id="square0" class="selectedSquare" onclick="choose(0);">Sort By Tags</span>
     </td>
     <td>
-      <span id="label2" style="cursor:pointer; padding:10px 20px 10px 20px; background-color:transparent;" onclick="choose(2);">Sort By Months</span>
+      <span id="square1" class="notSelectedSquare" onclick="choose(1);">Sort By Months</span>
     </td>
   </tr>
 </table>
+<div style="height:50px;">&nbsp;</div>
 
 
 
 
-
-<div id="section1">
+<div id="section0">
 {% comment%}
 Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
 {% endcomment%}
@@ -86,14 +86,42 @@ Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-i
 
 
 
-<div id="section2">
+<div id="section1">
 {% comment%}
 https://gist.github.com/tuananh/7432553
 {% endcomment%}
 
+{% assign rawmonths = "" %}
+{% for post in site.posts %}
+{% assign month = post.date | date: '%B %Y' %}
+{% assign rawmonths = rawmonths | append:month | append:'|' %}
+{% endfor %}
+
+{% assign rawmonths = rawmonths | split:'|' | sort %}
+
+{% assign months = "" %}
+
+{% for month in rawmonths %}
+{% if month != "" %}
+
+{% if months == "" %}
+{% assign months = month | split:'|' %}
+{% endif %}
+
+{% unless months contains month %}
+{% assign months = months | join:'|' | append:'|' | append:month | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+{% for month in months %}
+<a href="#{{ month | slugify }}" class="tag"> {{ month }} </a> &nbsp;
+{% endfor %}
+
+
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
 {% for yearMonth in postsByYearMonth %}
-  <h2>{{ yearMonth.name }}</h2>
+  <h2 id="{{ yearMonth.name | slugify }}">{{ yearMonth.name }}</h2>
     <ul class="codinfox-category-list">
       {% for post in yearMonth.items %}
         <li>

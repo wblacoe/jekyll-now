@@ -125,3 +125,27 @@
 .centered {
   text-align: center;
 }
+
+.selectedSquare {
+  cursor: pointer;
+  padding:10px 20px 10px 20px;
+  background-color: #66BBFF;
+}
+
+.notSelectedSquare{
+  cursor: pointer;
+  padding:10px 20px 10px 20px;
+  background-color: transparent;
+}
+
+.notSelectedSquare:hover {
+  background-color: #00008B;
+}
+
+.visibleSection {
+  display: block;
+}
+
+.invisibleSection {
+  display: none;
+}
