@@ -130,16 +130,19 @@
   cursor: pointer;
   padding:10px 20px 10px 20px;
   background-color: #66BBFF;
+  color: #000000;
 }
 
 .notSelectedSquare{
   cursor: pointer;
   padding:10px 20px 10px 20px;
   background-color: transparent;
+  color: #000000;
 }
 
 .notSelectedSquare:hover {
   background-color: #00008B;
+  color: #FFFFFF;
 }
 
 .visibleSection {
