@@ -30,7 +30,7 @@ var choose = function(index){
 
 
 
-<div id="section0">
+<div id="section0" class="visibleSection">
 {% comment%}
 Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
 {% endcomment%}
@@ -86,7 +86,7 @@ Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-i
 
 
 
-<div id="section1">
+<div id="section1" class="invisibleSection">
 {% comment%}
 https://gist.github.com/tuananh/7432553
 {% endcomment%}
