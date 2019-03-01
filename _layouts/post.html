@@ -25,7 +25,7 @@ comments: true
 {% if page.tags %}
 <div>
 {% for tag in page.tags %}
-<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="tag">{{ tag }}</a>
+<a href="{{ site.baseurl }}tag/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
 {% endfor %}
 </div>
 {% endif %}
@@ -38,7 +38,7 @@ comments: true
         <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
-            <span style="font-size:smaller;">({{ post.date | date_to_string }})</span>
+            <span style="font-size:small;">({{ post.date | date_to_string }})</span>
           </a>
         </h3>
       </li>
