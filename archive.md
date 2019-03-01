@@ -8,17 +8,17 @@ permalink: /archive/
 
 <script>
 var choose = function(index){
-  document.getElementById("label" + index).style["background-color"]="#0df";
+  document.getElementById("label" + index).style["background-color"]="#66BBFF";
   document.getElementById("label" + (3 - index)).style["background-color"]="transparent";
   document.getElementById("section" + index).style["display"]="block";
   document.getElementById("section" + (3 - index)).style["display"]="none";
 }
 </script>
 
-<table style="text-align:center; vertical-align:middle; width:100%; padding-bottom:30px;">
+<table style="text-align:center; vertical-align:middle; width:100%; padding-bottom:70px;">
   <tr>
     <td>
-      <span id="label1" style="cursor:pointer; padding:10px 20px 10px 20px; background-color:#0df;" onclick="choose(1);">Sort By Tags</span>
+      <span id="label1" style="cursor:pointer; padding:10px 20px 10px 20px; background-color:#66BBFF;" onclick="choose(1);">Sort By Tags</span>
     </td>
     <td>
       <span id="label2" style="cursor:pointer; padding:10px 20px 10px 20px; background-color:transparent;" onclick="choose(2);">Sort By Months</span>
