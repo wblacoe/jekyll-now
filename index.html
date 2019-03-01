@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:6 %}
     <article class="excerpt">
 		<a href="{{ site.baseurl }}{{ post.url }}">
 			<div class="overlaycontainer">
