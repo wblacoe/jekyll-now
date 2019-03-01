@@ -20,8 +20,8 @@ var choose = function(index){
     <td>
       <span id="label1" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(1);">Sort By Tags</span>
     </td>
-    <td id="td2" onclick="choose(2); padding:5px;">
-      <span id="label1" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(1);">Sort By Months</span>
+    <td>
+      <span id="label2" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(2);">Sort By Months</span>
     </td>
   </tr>
 </table>
