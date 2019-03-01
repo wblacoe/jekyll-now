@@ -8,20 +8,20 @@ permalink: /archive/
 
 <script>
 var choose = function(index){
-  document.getElementById("label" + index).style["font-weight"]="bold";
-  document.getElementById("label" + (3 - index)).style["font-weight"]="normal";
+  document.getElementById("label" + index).style["background-color"]="#0df";
+  document.getElementById("label" + (3 - index)).style["background-color"]="transparent";
   document.getElementById("section" + index).style["display"]="block";
   document.getElementById("section" + (3 - index)).style["display"]="none";
 }
 </script>
 
-<table style="text-align:center; vertical-align:middle; width:100%; border-collapse:collapse; border-style:solid;" border="1">
+<table style="text-align:center; vertical-align:middle; width:100%;">
   <tr>
     <td>
-      <span id="label1" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(1);">Sort By Tags</span>
+      <span id="label1" style="cursor:pointer; padding:20px 20px 20px 20px; background-color:#0df;" onclick="choose(1);">Sort By Tags</span>
     </td>
     <td>
-      <span id="label2" style="cursor:pointer; font-weight:bold; padding:20px 20px 20px 20px;" onclick="choose(2);">Sort By Months</span>
+      <span id="label2" style="cursor:pointer; padding:20px 20px 20px 20px; background-color:transparent;" onclick="choose(2);">Sort By Months</span>
     </td>
   </tr>
 </table>
@@ -59,14 +59,10 @@ Adapted from https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-i
 {% endfor %}
 
 
-<br/>
-<h1>All Blog Tags</h1>
 {% for tag in tags %}
 <a href="#{{ tag | slugify }}" class="tag"> {{ tag }} </a> &nbsp;
 {% endfor %}
 
-<br/>
-<h1>All Posts grouped by Tags</h1>
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
 <ul class="codinfox-category-list">
