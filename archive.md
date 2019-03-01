@@ -18,10 +18,10 @@ var choose = function(index){
 <table style="text-align:center; vertical-align:middle; width:100%;">
   <tr>
     <td>
-      <span id="square0" class="selectedSquare" onclick="choose(0);">Sorted By Tags</span>
+      <div id="square0" class="selectedSquare" onclick="choose(0);">Sorted By Tags</div>
     </td>
     <td>
-      <span id="square1" class="notSelectedSquare" onclick="choose(1);">Sorted By Months</span>
+      <div id="square1" class="notSelectedSquare" onclick="choose(1);">Sorted By Months</div>
     </td>
   </tr>
 </table>
