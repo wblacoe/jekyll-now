@@ -1,0 +1,55 @@
+likes(NSUBJ:man(DET:the|AMOD:old)|XCOMP:travel(AUX:to))
+{ "class": "GraphLinksModel",
+  "nodeKeyProperty": "id",
+  "copiesKey": false,
+  "nodeDataArray": [ 
+{"id":0, "loc":"-68 285", "text":"the"},
+{"id":1, "loc":"20 284", "text":"old"},
+{"id":2, "loc":"-26 194", "text":"man"},
+{"id":3, "loc":"35 92", "text":"likes"},
+{"id":4, "loc":"139 288", "text":"to"},
+{"text":"travel", "id":5, "loc":"83 196"}
+ ],
+  "linkDataArray": [ 
+{"from":3, "to":2, "text":"NSUBJ"},
+{"from":2, "to":0, "text":"DET"},
+{"from":2, "to":1, "text":"AMOD"},
+{"from":3, "to":5, "text":"XCOMP"},
+{"from":5, "to":4, "text":"AUX"}
+ ]}
+
+like(NSUBJ:I|XCOMP:travel(AUX:to))
+{ "class": "GraphLinksModel",
+  "nodeKeyProperty": "id",
+  "copiesKey": false,
+  "nodeDataArray": [ 
+{"id":2, "loc":"-26 194", "text":"I"},
+{"id":3, "loc":"35 92", "text":"like"},
+{"id":4, "loc":"139 288", "text":"to"},
+{"text":"travel", "id":5, "loc":"83 196"}
+ ],
+  "linkDataArray": [ 
+{"from":3, "to":2, "text":"NSUBJ", "points":[45.95878706274041,130.36263989647534,0.8143579127894256,196.87982587716064]},
+{"from":3, "to":5, "text":"XCOMP", "points":[69.10694028211121,130.9082494256043,103.77040704754643,196.05858917602586]},
+{"from":5, "to":4, "text":"AUX", "points":[123.2653005857448,234.9191256794611,148.63856481651095,288.757082340014]}
+ ]}
+
+likes(man(the|old)|travel(to))
+{ "class": "GraphLinksModel",
+  "nodeKeyProperty": "id",
+  "copiesKey": false,
+  "nodeDataArray": [ 
+{"id":0, "loc":"-68 285", "text":"the"},
+{"id":1, "loc":"20 284", "text":"old"},
+{"id":2, "loc":"-26 194", "text":"man"},
+{"id":3, "loc":"35 92", "text":"likes"},
+{"id":4, "loc":"139 288", "text":"to"},
+{"text":"travel", "id":5, "loc":"83 196"}
+ ],
+  "linkDataArray": [ 
+{"from":3, "to":2},
+{"from":2, "to":0},
+{"from":2, "to":1},
+{"from":3, "to":5},
+{"from":5, "to":4}
+ ]}

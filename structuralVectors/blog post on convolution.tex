@@ -1,0 +1,46 @@
+\usepackage{amsmath}
+
+\documentclass[12pt]{article}
+\title{blog post on convolution}
+\author{}
+\date{}
+
+
+\makeatletter
+\newcommand{\ostar}{\mathbin{\mathpalette\make@circled\star}}
+\newcommand{\oslash}{\mathbin{\mathpalette\make@circled{\/}}}
+\newcommand{\make@circled}[2]{%
+  \ooalign{$\m@th#1\smallbigcirc{#1}$\cr\hidewidth$\m@th#1#2$\hidewidth\cr}%
+}
+\newcommand{\smallbigcirc}[1]{%
+  \vcenter{\hbox{$\m@th#1\bigcirc$}}%
+}
+\makeatother
+
+\newcommand{\dsum}{\displaystyle\sum}
+\renewcommand{\vec}[1]{\overrightarrow{#1}}
+
+
+
+\begin{document}
+\maketitle
+
+convolution:\\[1em]
+$\vec{c}_i = (\vec{a} \ostar \vec{b})_i = \dsum_{j=0}^{d-1} \vec{a}_{(i-j)\,\mathrm{mod}_n} \cdot \vec{b}_{j\,\mathrm{mod}_n}$\\[1em]
+involution:\\[1em]
+$\vec{a}_i \approx (\vec{c} \oslash \vec{b})_i = \dsum_{j=0}^{d-1} \vec{c}_{(i+j)\,\mathrm{mod}_n} \cdot \vec{b}_{j\,\mathrm{mod}_n}$\\[1em]
+sentence:\\[1em]
+$s = w_1\ w_2\ w_3\ ...$\\[1em]
+convolved component:\\[1em]
+$\vec{w}_i \ostar \vec{pos}_i$\\[1em]
+sentence vector:\\[1em]
+$\vec{s} = \dsum_{i=1}^n \vec{w}_i \ostar \vec{pos}_i$\\[1em]
+for:\\[1em]
+$i = 1, 2, 3, 4$\\[1em]
+example:\\[1em]
+$\vec{\mathrm{I\ like\ to\ travel}} = \vec{\mathrm{I}}\ostar\vec{pos}_1 + \vec{\mathrm{like}}\ostar\vec{pos}_2 + \vec{\mathrm{to}}\ostar\vec{pos}_3 + \vec{\mathrm{travel}}\ostar\vec{pos}_4$
+
+
+
+
+\end{document}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Text Analysis of the 4 Gospels
-tags: [Religion, Programming, NLP]
+tags: [Religion, Programming, Python, NLP]
 ---
 
 <img class="floatright" src="/images/evangelists.jpg" />

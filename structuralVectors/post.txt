@@ -1,0 +1,61 @@
+A vector is much more than just a finite row or column of numbers. It can contain information through various ways of encoding. Here we take a look at two particular ways of combining individual vectors into one composite vector: circular convolution and random permutations. One interesting feature of these methods is that compositie vectors have the same amount of dimensions as the constituent vectors.
+
+First let's remember how (the discrete version of) circular convolution is defined:
+(a * b)_i = ...
+where $i$ ranges from $1$ to $d-1$.
+
+Thus a * b is a vectorised version of the outer product of a and b. While the factors of an outer product can be reproduced perfectly, reconstructing the constituents of a convolved vectors usually comes with some loss. This reconstruction is performed using involution, also known as circular correlation, and is defined as:
+(a # b)_i = ...
+where $i$ ranges from $1$ to $d-1$.
+
+Both convolution and involution are commutative. Nevertheless, they can represent much more complex objects than just a set of symbols. In the following, we will showcase two types of such structures. Both are sequences of symbols, more specifically sentences made up of English words and English words made up of characters, respectively. The first construct treats the position of each word strictly. That is, "I ran quickly" is not equal to "I quickly ran" (like Plate 1995). On the other hand, the second construct is less strict. The words "hard" and "hand", for example, are not entirely different. Even though one item in the sequence is different, the overall similarity of the two words is not 100%, but is close to it. The order of letters is also allowed to permute: The words "bear" and "bare" are made up of the same letters, but in differing positions. So they too have slightly less than maximum similarity. This is useful in orthography, when small differences should not regard the overall sequence as wholly different (like Widdows 201?).
+
+We test these constructions by encoding sequences of items into a single vector and then try to extract them again one by one. We cannot extract just any item. It must have appeared before while combining items to sequences, and thus got saved in a data structure. This data structure is a mapping between items and their individual vectors. When querying the map with some vector it responds with the items whose vectors are closest to the input vector.
+
+The sequences we are dealing with in construct 1 are sentences $s = w_1 w_2 w_3 ...$. The vector that encodes the entire sentence is a sum of convolved vectors $w_i * pos_i$ for word $w_i$ and position $i$:
+[formula]
+
+So in the example sentence "I like to travel" we have a sequence of 4 words. Therefore for $i = 1, 2, 3, 4$
+- we create a random vector $pos_i$ for position $i$ and
+- we create a random vector $w_i$ for each word $w_i$ in the sequence.
+Then the sentence vector is:
+[formula]
+
+Each created word vector gets saved in a data structure. Each created position vector gets saved in a separate data structure because we don't want to query a data structure for nearest words and possibly get a position vector in return.
+
+After the sentence vector is fully created, we test how well it encodes its words and their positions by trying to recover each of them. We start by correlating the sentence vector with $pos_1$ and use the resulting vector to query the word cache. Its reponse is that the word "I" has a similarity of 0.47 with $s * pos_1$ which is the highest of all words in the cache. We can now remove this item from the sentence vector, as we are done dealing with position 1 and this component would only add to the noise in further queries. A repetition of this process leads to the discoveries that "like" is the word whose vector is closest to $s * pos_2$, that the vector for "to" is nearest when querying $s * pos_3$, that "travel" has the highest similarity to $s * pos_4$ and that no item in the word cache is close enough to $s * pos_5$ to be considered an item of the sequence. We set the similarity threshold at 0.2. But the query $s * pos_5$ answers that "travel" has the nearest vector with a similarity of 0.02.
+
+When running the same test with input sentence "the old man likes to travel" the results for the reconstruction process are as follows:
+- searching for word at position 1 => nearest entry is "the" (0.38101655) => ACCEPT
+- searching for word at position 2 => nearest entry is "old" (0.45788056) => ACCEPT
+- searching for word at position 3 => nearest entry is "man" (0.47817636) => ACCEPT
+- searching for word at position 4 => nearest entry is "likes" (0.48620367) => ACCEPT
+- searching for word at position 5 => nearest entry is "to" (0.51827383) => ACCEPT
+- searching for word at position 6 => nearest entry is "travel" (0.70300174) => ACCEPT
+- searching for word at position 7 => nearest entry is "the" (0.05024985) => REJECT
+
+usages and strengths:
+. variable binding, e.g. role (*) argument
+. different amount of arguments are allowed. with tensor product amount must be the same (Paul Smolensky) or Fock  spaces become necessary.
+. there is no known method for deciding how many dimensions the layers in a neural net need (so that the function underlying the data can be represented and learned efficiently, and at the same time overfitting is avoided). Plate gives lower bounds for the dimensionality of convolution memories dependent on the amount of associations it needs to contain.
+
+structures:
+. convolution
+	. word = SUM position (*) letter, where position vectors are graded (done by Widdows and Cohen)
+		. test: nearest orthographic words
+		. test: also compute similarity between position vectors separately (finite and infinite amounts)
+	. sentence = SUM position (*) word, where position vectors are independent of each other (done by Plate)
+		. test: reconstruct sentence words from sentence vector
+. permutation
+	. path in unlabelled tree = composition of permutations (each encodes a child position) (=> child order is encoded)
+		. test: reconstruct an unlabelled dep parse tree
+	. path in labelled tree = composition of permutations (each encodes an edge label) (=> child order is not encoded)
+		. test: reconstruct a dep parse tree
+
+
+future work:
+. save multiple sentences in one vector. when reconstructing them, do not mix words from different sentences. add a convolution dimension, i.e. sentence number (x) word position (x) word
+. mix orthographic with semantic vectors (already done by Widdows). useful for mixed information retrieval.
+. elevate orthographic + semantic vectors to sentence level => mixed sentence/document retrieval.
+. encode relations AND child position in dep tree vectors, thus encoding the position of all words in sentence.
+. don't make different letters orthogonally different from each other. include phonetic similarity (e.g. REFERENCE)
