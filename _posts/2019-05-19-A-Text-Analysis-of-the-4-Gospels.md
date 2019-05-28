@@ -26,6 +26,7 @@ I learned a lot about Python's iterators and generators during this step. They m
 * defining a method for computing the similarity between two verses
 * aligning similar verses in two books that are being compared
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 Representing a word or a piece of text with a vector is a common practise in natural language processing. You define a **vector space** with as many dimensions as there are distinct words in the dataset, in this case the 4 canonic gospel books. To estimate how much two verses have in common I used the cosine-similarity, defined as:
 
 $$sim(text_1, text_2) = cos \sphericalangle\left(\overrightarrow{text_1}, \overrightarrow{text_2}\right)$$
