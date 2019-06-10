@@ -5,6 +5,7 @@ tags: [Mathematics, Number theory]
 ---
 
 <link rel="stylesheet" href="/treant/Treant.css" type="text/css"/>
+<script src="/treant/raphael.js"></script>
 <script src="/treant/Treant.js"></script>
 <script src="/treant/jquery.min.js"></script>
 <script src="/treant/jquery.easing.js"></script>
@@ -82,6 +83,7 @@ var chart_config = {
             ]
         }
     };
+	tree = new Treant(chart_config);
 </script>
 
 This leads to trees whose nodes are labelled only with prime numbers. In order to reconstruct the natural number that a prime number tree expresses ...
