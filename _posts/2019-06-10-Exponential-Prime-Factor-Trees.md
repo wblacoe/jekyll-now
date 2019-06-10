@@ -35,10 +35,10 @@ $$2\times 2=2^2\equiv\{2:2\}$$
 
 This is a recursive step. In other words, the exponents in the multi-set representing a natural number are themselves natural numbers and can thus in turn be represented by multi-sets over prime numbers. In the interest of avoiding illegible bracketings when writing multi-sets nested within multi-sets arbitrarily deep, a tree-shaped notation is advisable. In our case:
 
-<div style="text-align: left">
+<p style="text-align: center">
 $$19845 \equiv$$
-</div>
-<img src="/images/primes_tree.png" style="text-align: center"/>
+<img src="/images/primes_tree.png"/>
+</p>
 
 The root has no label since it serves merely to group the top-most labelled nodes. All nodes below the root are labelled with prime numbers. So the following function reconstructs the natural number that a given prime number tree expresses. It takes a node $$x$$ as an input and exponentiates $$x$$'s label by the product of the values of $$x$$'s subtrees, which are calculated recursively.
 
