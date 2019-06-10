@@ -48,12 +48,13 @@ $$19845 \equiv$$
 var chart_config = {
         chart: {
             container: "#tree19845",
-
             animateOnInit: false,
-            
+			connectors: {
+				type: "straight"
+			},
             node: {
                 collapsable: false
-            }
+            },
         },
         nodeStructure: {
             text: { name: 1 },
@@ -77,7 +78,9 @@ var chart_config = {
                 {
                     text: { name: 7 },
                     children: [
-                        text: { name: 2 }
+						{
+							text: { name: 2 }
+						}
                     ]
                 }
             ]
