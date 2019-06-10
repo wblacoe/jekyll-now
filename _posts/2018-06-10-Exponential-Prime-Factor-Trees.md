@@ -10,8 +10,8 @@ tags: [Mathematics, Number theory]
 <script src="/treant/jquery.min.js"></script>
 <script src="/treant/jquery.easing.js"></script>
 
-<!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>-->
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?..."></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<!--<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?..."></script>-->
 
 <img class="floatleft" src="/images/evangelists.jpg" />
 We usually think of the **natural numbers** 1, 2, 3, ... as elements on a straight line that extends infinitely. That is, the relationship between 2 and 3 is the same as between 3 and 4 and so on: they have the same distance between them. In the case of a distance of 1 we might call them neighbours. This perspective focuses on the linearity and additivity of numbers: the linear distance from one number to another number can be expressed as a number. Human thinking is intuitively linear in many situations, even when that does not reflect the entire nature of the considered system. Examples include systems of exponential growth or exponential decay, or systems that involve subtle interaction among subsystems whose behaviour cannot be predicted by assuming "more of $$x$$ means (proportionally) more of $$y$$".
@@ -59,29 +59,29 @@ var chart_config = {
             },
         },
         nodeStructure: {
-            /*text: { name: 1 },*/
+            /*text: { name: "&nbsp;1&nbsp;" },*/
             children: [
                 {
-                    text: { name: 3 },
+                    text: { name: "&nbsp;3&nbsp;" },
                     children: [
                         {
-							text: { name: 2 },
+							text: { name: "&nbsp;2&nbsp;" },
                             children: [
 								{
-									text: { name: 2 }
+									text: { name: "&nbsp;2&nbsp;" }
 								}
 							]
                         }
                     ]
                 },
                 {
-                    text: { name: 5 },
+                    text: { name: "&nbsp;5&nbsp;" },
                 },
                 {
-                    text: { name: 7 },
+                    text: { name: "&nbsp;7&nbsp;" },
                     children: [
 						{
-							text: { name: 2 }
+							text: { name: "&nbsp;2&nbsp;" }
 						}
                     ]
                 }
