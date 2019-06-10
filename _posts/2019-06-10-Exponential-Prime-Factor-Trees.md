@@ -41,13 +41,13 @@ $$19845 \equiv$$
 
 The root has no label since it serves merely to group the top-most labelled nodes. All nodes below the root are labelled with prime numbers. So the following function reconstructs the natural number that a given prime number tree expresses. It takes a node $$x$$ as an input and exponentiates $$x$$'s label by the product of the values of $$x$$'s subtrees, which are calculated recursively.
 
-$$f(x) = \left\{
+<!--$$f(x) = \left\{
 	\begin{array}{ll}
 		\Pi_{c\ \in\ \mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has\ no\ label}\\
 		\mathrm{label}(x)^{\Pi_{c\ \in\ \mathrm{children}(x)}f(c)} & \mathrm{otherwise}
 	\end{array}
 \right.$$
 
-If $$x$$ is a leaf node, $$f(x)=\mathrm{label}(x)$$ since $$\Pi_{c\ \in\ \mathrm{\emptyset}}f(c) = 1$$.
+If $$x$$ is a leaf node, $$f(x)=\mathrm{label}(x)$$ since $$\Pi_{c\ \in\ \mathrm{\emptyset}}f(c) = 1$$.-->
 
 This way of approaching the nature of numbers opens a whole new field of possibilities for working with them. In a **future post** we will analyse what the consequences of this type of number representation are. How does this perspective change the relationships among numbers? What arithmetic operations can we define over numbers? What are the advantages?
