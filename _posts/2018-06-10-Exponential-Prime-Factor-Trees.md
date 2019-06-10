@@ -10,7 +10,8 @@ tags: [Mathematics, Number theory]
 <script src="/treant/jquery.min.js"></script>
 <script src="/treant/jquery.easing.js"></script>
 
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>-->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?..."></script>
 
 <img class="floatleft" src="/images/evangelists.jpg" />
 We usually think of the **natural numbers** 1, 2, 3, ... as elements on a straight line that extends infinitely. That is, the relationship between 2 and 3 is the same as between 3 and 4 and so on: they have the same distance between them. In the case of a distance of 1 we might call them neighbours. This perspective focuses on the linearity and additivity of numbers: the linear distance from one number to another number can be expressed as a number. Human thinking is intuitively linear in many situations, even when that does not reflect the entire nature of the considered system. Examples include systems of exponential growth or exponential decay, or systems that involve subtle interaction among subsystems whose behaviour cannot be predicted by assuming "more of $$x$$ means (proportionally) more of $$y$$".
@@ -41,8 +42,7 @@ $$2\times 2=2^2\equiv\{2:2\}$$
 
 This is a recursive step. In other words, the exponents in the multi-set representing a natural number are themselves natural numbers and can thus in turn be represented by multi-sets over prime numbers. In the interest of avoiding illegible bracketings when writing multi-sets nested within multi-sets arbitrarily deep, a tree-shaped notation is advisable. In our case:
 
-$$19845 \equiv$$
-<div class="chart" id="tree19845"></div>
+$$19845 \equiv$$ <div class="chart" id="tree19845"></div>
 
 <script>
 var chart_config = {
@@ -53,11 +53,12 @@ var chart_config = {
 				type: "straight"
 			},
             node: {
-                collapsable: false
+                collapsable: false,
+				HTMLclass: "blue"
             },
         },
         nodeStructure: {
-            text: { name: 1 },
+            /*text: { name: 1 },*/
             children: [
                 {
                     text: { name: 3 },
@@ -89,4 +90,13 @@ var chart_config = {
 	tree = new Treant(chart_config);
 </script>
 
-This leads to trees whose nodes are labelled only with prime numbers. In order to reconstruct the natural number that a prime number tree expresses ...
+The root has no label since it serves merely to group the top-most labelled nodes. All nodes below the root are labelled with prime numbers. So the following function reconstructs the natural number that a given prime number tree expresses. It takes a node $$x$$ as an input and exponentiates $$x$$'s label by the product of the values of $$x$$'s subtrees, which are calculated recursively.
+
+$$f(x) = \left\{
+	\begin{array}{ll}
+		\Pi_{c\elem\mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has no label}\\
+		\mathrm{label}(x)^{\Pi_{c\elem\mathrm{children}(x)}f(c)} & \mathrm{otherwise}
+	\end{array}
+\right.$$
+
+If $$x$$ has no children $$f(x)=\mathrm{label}(x)$$, since $$\Pi_{c\elem\mathrm{\emptyset}f(c) = 1$$.
