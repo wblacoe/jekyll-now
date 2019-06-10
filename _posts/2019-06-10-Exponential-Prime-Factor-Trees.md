@@ -38,7 +38,7 @@ This is a recursive step. In other words, the exponents in the multi-set represe
 <div style="text-align: left">
 $$19845 \equiv$$
 </div>
-<img src="/images/primes_tree.png" style="margin-left: auto; margin-right: auto"/>
+<img src="/images/primes_tree.png" style="text-align: center"/>
 
 The root has no label since it serves merely to group the top-most labelled nodes. All nodes below the root are labelled with prime numbers. So the following function reconstructs the natural number that a given prime number tree expresses. It takes a node $$x$$ as an input and exponentiates $$x$$'s label by the product of the values of $$x$$'s subtrees, which are calculated recursively.
 
