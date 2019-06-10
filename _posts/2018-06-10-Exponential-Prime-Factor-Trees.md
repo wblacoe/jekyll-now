@@ -4,14 +4,7 @@ title: Exponential Prime Factor Trees
 tags: [Mathematics, Number theory]
 ---
 
-<link rel="stylesheet" href="/treant/Treant.css" type="text/css"/>
-<script src="/treant/raphael.js"></script>
-<script src="/treant/Treant.js"></script>
-<script src="/treant/jquery.min.js"></script>
-<script src="/treant/jquery.easing.js"></script>
-
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<!--<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?..."></script>-->
 
 <img class="floatleft" src="/images/evangelists.jpg" />
 We usually think of the **natural numbers** 1, 2, 3, ... as elements on a straight line that extends infinitely. That is, the relationship between 2 and 3 is the same as between 3 and 4 and so on: they have the same distance between them. In the case of a distance of 1 we might call them neighbours. This perspective focuses on the linearity and additivity of numbers: the linear distance from one number to another number can be expressed as a number. Human thinking is intuitively linear in many situations, even when that does not reflect the entire nature of the considered system. Examples include systems of exponential growth or exponential decay, or systems that involve subtle interaction among subsystems whose behaviour cannot be predicted by assuming "more of $$x$$ means (proportionally) more of $$y$$".
@@ -43,61 +36,16 @@ $$2\times 2=2^2\equiv\{2:2\}$$
 This is a recursive step. In other words, the exponents in the multi-set representing a natural number are themselves natural numbers and can thus in turn be represented by multi-sets over prime numbers. In the interest of avoiding illegible bracketings when writing multi-sets nested within multi-sets arbitrarily deep, a tree-shaped notation is advisable. In our case:
 
 $$19845 \equiv$$
-<div class="chart" id="tree19845"></div>
-
-<script>
-var chart_config = {
-        chart: {
-            container: "#tree19845",
-            animateOnInit: false,
-			connectors: {
-				type: "straight"
-			},
-            node: {
-                collapsable: false,
-				HTMLclass: "blue"
-            },
-        },
-        nodeStructure: {
-            /*text: { name: "  1  " },*/
-            children: [
-                {
-                    text: { name: "  3  " },
-                    children: [
-                        {
-							text: { name: "  2  " },
-                            children: [
-								{
-									text: { name: "  2  " }
-								}
-							]
-                        }
-                    ]
-                },
-                {
-                    text: { name: "  5  " },
-                },
-                {
-                    text: { name: "  7  " },
-                    children: [
-						{
-							text: { name: "  2  " }
-						}
-                    ]
-                }
-            ]
-        }
-    };
-	tree = new Treant(chart_config);
-</script>
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-06-10T13:24:20.896Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36\&quot; etag=\&quot;roMKMdFyayjD8LhPmmDy\&quot; version=\&quot;10.7.5\&quot;&gt;&lt;diagram id=\&quot;hVIxuqVEzdTEunJplugI\&quot; name=\&quot;Page-1\&quot;&gt;7VldU+IwFP01PLrT9At4FHR1nHFnZ3hA9y1LQ5uxNN0QpPXXb0pu+gmCKBTUF809SW5v7jlpb0LHGs6SG47j4J55JOyYhpd0rKuOafZsQ/7NgFQBdmZlgM+ppyBUACP6QgCEef6CemReGSgYCwWNq+CERRGZiAqGOWfL6rApC6tPjbFPGsBogsMmOqaeCGBZjlHgt4T6gX4yMqBnhvVgAOYB9tiyBFnXHWvIGROqNUuGJMxyp/Oi5v3c0JsHxkkkdplwdzOeBne/7m+HbJz+pX+eotHLBXh5xuECFgzBilRnQHqRyZbGYBlQQUYxnmQ9S0m3xAIxC6WFZBPPY8XAlCZEPnQAvgkXJNkYNMpTISVE2IwInsohMMFEEJCWDyRzWeICoKBEg8YwsO/njosEyQbk6A35MnfIV+RdZsKTVsQiUs2RXDZPH6Rh/HC0+Vjuu8oWbuRWqq2Eigc9TrYfS3gxJTP0DBUX8RryrqVexs4WfEJeWXQX9h3mPhHbxNSkssSVs4YrjXESYkGfq+GuIxCe8JtRuZBcKUhzDkpB/ZoG1DJhVnmf1ByZ3Zojp+ZI5aHhaKWnfNn7S8x6r8RAKqAwEAs6llj0S3qbWNw2xZL7SWviebNY6o6s44rF/hpicVoVi+u8zvGuYrHMLao7sFicNWJxQ5mswZSt4ixU4/5bMN1xMV9VZZdygG3ESdEpW372v6vdyKiUJ4WfVinRyL7bci3hbqRjHuNofzqcEh3K0ynSkVf4p0JH90C7wzqL3YEM+7To6B2IDvMs6ciL0rbo6H/TUaLD6rVMh355tnYQrRaMRzuKwltha8HYXU/nkY6iRvXT5qA9C0ZUO13Y7nELRrTL9dAnVFl/R5X1vlX2ESozv/S3pX4uMVv/trz7Buo8d73W4WnfRjS2/b63EY1t/2G3EdIsftZQw4vfhqzr/w==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
 
 The root has no label since it serves merely to group the top-most labelled nodes. All nodes below the root are labelled with prime numbers. So the following function reconstructs the natural number that a given prime number tree expresses. It takes a node $$x$$ as an input and exponentiates $$x$$'s label by the product of the values of $$x$$'s subtrees, which are calculated recursively.
 
 $$f(x) = \left\{
 	\begin{array}{ll}
-		\Pi_{c\in\mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has\ no\ label}\\
-		\mathrm{label}(x)^{\Pi_{c\in\mathrm{children}(x)}f(c)} & \mathrm{otherwise}
+		\Pi_{c\ \in\ \mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has\ no\ label}\\
+		\mathrm{label}(x)^{\Pi_{c\ \in\ \mathrm{children}(x)}f(c)} & \mathrm{otherwise}
 	\end{array}
 \right.$$
 
-If $$x$$ has no children $$f(x)=\mathrm{label}(x)$$, since $$\Pi_{c\in\mathrm{\emptyset}}f(c) = 1$$.
+If $$x$$ is a leaf node, $$f(x)=\mathrm{label}(x)$$ since $$\Pi_{c\ \in\ \mathrm{\emptyset}}f(c) = 1$$.
