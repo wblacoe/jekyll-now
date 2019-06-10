@@ -59,29 +59,29 @@ var chart_config = {
             },
         },
         nodeStructure: {
-            /*text: { name: "&nbsp;1&nbsp;" },*/
+            /*text: { name: "  1  " },*/
             children: [
                 {
-                    text: { name: "&nbsp;3&nbsp;" },
+                    text: { name: "  3  " },
                     children: [
                         {
-							text: { name: "&nbsp;2&nbsp;" },
+							text: { name: "  2  " },
                             children: [
 								{
-									text: { name: "&nbsp;2&nbsp;" }
+									text: { name: "  2  " }
 								}
 							]
                         }
                     ]
                 },
                 {
-                    text: { name: "&nbsp;5&nbsp;" },
+                    text: { name: "  5  " },
                 },
                 {
-                    text: { name: "&nbsp;7&nbsp;" },
+                    text: { name: "  7  " },
                     children: [
 						{
-							text: { name: "&nbsp;2&nbsp;" }
+							text: { name: "  2  " }
 						}
                     ]
                 }
@@ -95,9 +95,9 @@ The root has no label since it serves merely to group the top-most labelled node
 
 $$f(x) = \left\{
 	\begin{array}{ll}
-		\Pi_{c\elem\mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has no label}\\
-		\mathrm{label}(x)^{\Pi_{c\elem\mathrm{children}(x)}f(c)} & \mathrm{otherwise}
+		\Pi_{c\in\mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has\ no\ label}\\
+		\mathrm{label}(x)^{\Pi_{c\in\mathrm{children}(x)}f(c)} & \mathrm{otherwise}
 	\end{array}
 \right.$$
 
-If $$x$$ has no children $$f(x)=\mathrm{label}(x)$$, since $$\Pi_{c\elem\mathrm{\emptyset}f(c) = 1$$.
+If $$x$$ has no children $$f(x)=\mathrm{label}(x)$$, since $$\Pi_{c\in\mathrm{\emptyset}}f(c) = 1$$.
