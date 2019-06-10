@@ -5,6 +5,7 @@ tags: [Mathematics, Number theory]
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 <img class="floatleft" src="/images/zeta_polar.png" />
 We usually think of the **natural numbers** 1, 2, 3, ... as elements on a straight line that extends infinitely. That is, the relationship between 2 and 3 is the same as between 3 and 4 and so on: they have the same distance between them. In the case of a distance of 1 we might call them neighbours. This perspective focuses on the linearity and additivity of numbers: the linear distance from one number to another number can be expressed as a number. Human thinking is intuitively linear in many situations, even when that does not reflect the entire nature of the considered system. Examples include systems of exponential growth or exponential decay, or systems that involve subtle interaction among subsystems whose behaviour cannot be predicted by assuming "more of $$x$$ means (proportionally) more of $$y$$".
 
@@ -36,18 +37,17 @@ This is a recursive step. In other words, the exponents in the multi-set represe
 
 $$19845 \equiv$$
 
-<!--<div class="mxgraph" style="border:1px solid transparent; margin-left: auto; margin-right: auto" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;toolbar&quot;:&quot;layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile modified=\&quot;2019-06-10T13:34:26.376Z\&quot; host=\&quot;www.draw.io\&quot; agent=\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36\&quot; etag=\&quot;BmiL7g1-wmavhmaw9v_t\&quot; version=\&quot;10.7.5\&quot;&gt;&lt;diagram id=\&quot;hVIxuqVEzdTEunJplugI\&quot; name=\&quot;Page-1\&quot;&gt;7Vlbc6IwFP41PjaTCwR4bG23nc50Z2d8aHffqERgFgmLWLW/fkOTABEvaNeq2zoZJCcnOcl3viTHY4/0x/Pb3M+iBx6wpIdhMO+R6x7GCEMovkrJQkqojaQgzONAKdWCQfzKlFD1C6dxwCaGYsF5UsSZKRzyNGXDwpD5ec5nptqIJ6bVzA9ZSzAY+klb+hgHRSSlrg1r+R2Lw0hbRnrBY18rK8Ek8gM+a4jITY/0c84L+Tae91lSgqdxkf2+rWmtJpaztOjS4f72cRTdf3+46/PHxXP863c6eL1AthzmxU+masVqtsVCQxDmfJopNZYXbL4KeP9Zq8P2xFC1XMETxsesyBdCRQ2keyiGYATUpGY14MilUhY1wCa6p6+cHFZj1ziIFwXFLrBsR0WMIjgoKlezKC7YIPOHZctMbAMhi4qxMHiNxKs/ySQxR/GcCaNXa6FsQrbBW2uBpA5wqVUXpwWjDQF2YKNYbVTX6fxzkHEHkNPgstzEopbylJnACqzyxZOoQEEYVf3ZbLsucYFVbaFr87h40nri/WdDXncpK7qHnBcLWkdFJ3+JFfFpPmQbFJWnCj8P2cYBV/vf8PAqj0pZzhK/iF/MRaxyq7Lwg8dieRW9LAc4Nq0LNbYtQhYQ56KDLP00x5cYqCGbx9SSFQQtQBB0q2JYcQlwoWdjop5Li5AAtoy80bPCa3/GkvcyVjFPEVZxDx2Xe/pW3cY9ekzueQg4FsF1MbkHKaDNj7Mf9zZboS5o0tteMnJg7lmfmXtr7r2P4R6CCCDqekgXvAstOp97xAYO9uqyG8UPzL5VYSJNBM5XI/62ipqG9M+U64aLyVtAfykULJjN60bxFpbfjh5GzEqOJOXnEG5t8Zg4TKzmhUhOOxqjaz08yfx0fw/bDQ/Lkc7Hw1TsuUYkgtA5O9g50BYm57iFz9OF7oFciM/YhcixQfVzoHxap+1D78uHLR9i2wPQcijy5BOdtgt1bvJomQszhj9y7sLtGMM7x4zhLzCwRbzWKGb2gtgu2JBX6BrEYxd40LbqQkwrywnLA0ftqEse89MQ1etIVPeLqB9OVPx1K+76+xK5GBj5Vnrit+a7s6f/02GkGX/aqa+tp5FDAGl+9kx+bTuOyOoY/92nk6jWf8BK9fpvbHLzFw==&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
-<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>-->
+<img src="/images/primes_tree.png" style="margin-left: auto; margin-right: auto"/>
 
 The root has no label since it serves merely to group the top-most labelled nodes. All nodes below the root are labelled with prime numbers. So the following function reconstructs the natural number that a given prime number tree expresses. It takes a node $$x$$ as an input and exponentiates $$x$$'s label by the product of the values of $$x$$'s subtrees, which are calculated recursively.
 
-<!--$$f(x) = \left\{
+$$f(x) = \left\{
 	\begin{array}{ll}
 		\Pi_{c\ \in\ \mathrm{children}(x)}f(c) & \mathrm{if}\ x\ \mathrm{has\ no\ label}\\
 		\mathrm{label}(x)^{\Pi_{c\ \in\ \mathrm{children}(x)}f(c)} & \mathrm{otherwise}
 	\end{array}
 \right.$$
 
-If $$x$$ is a leaf node, $$f(x)=\mathrm{label}(x)$$ since $$\Pi_{c\ \in\ \mathrm{\emptyset}}f(c) = 1$$.-->
+If $$x$$ is a leaf node, $$f(x)=\mathrm{label}(x)$$ since $$\Pi_{c\ \in\ \mathrm{\emptyset}}f(c) = 1$$.
 
 This way of approaching the nature of numbers opens a whole new field of possibilities for working with them. In a **future post** we will analyse what the consequences of this type of number representation are. How does this perspective change the relationships among numbers? What arithmetic operations can we define over numbers? What are the advantages?
