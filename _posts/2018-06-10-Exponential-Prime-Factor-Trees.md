@@ -6,6 +6,9 @@ tags: [Mathematics, Number theory]
 
 <link rel="stylesheet" href="/treant/Treant.css" type="text/css"/>
 <script src="/treant/Treant.js"></script>
+<script src="/treant/vendor/jquery.min.js"></script>
+<script src="/treant/vendor/jquery.easing.js"></script>
+
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <img class="floatleft" src="/images/evangelists.jpg" />
