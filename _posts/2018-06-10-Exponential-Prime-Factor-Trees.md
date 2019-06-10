@@ -42,7 +42,8 @@ $$2\times 2=2^2\equiv\{2:2\}$$
 
 This is a recursive step. In other words, the exponents in the multi-set representing a natural number are themselves natural numbers and can thus in turn be represented by multi-sets over prime numbers. In the interest of avoiding illegible bracketings when writing multi-sets nested within multi-sets arbitrarily deep, a tree-shaped notation is advisable. In our case:
 
-$$19845 \equiv$$ <div class="chart" id="tree19845"></div>
+$$19845 \equiv$$
+<div class="chart" id="tree19845"></div>
 
 <script>
 var chart_config = {
