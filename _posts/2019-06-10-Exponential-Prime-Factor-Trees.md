@@ -6,7 +6,7 @@ tags: [Mathematics, Number theory]
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<img class="floatleft" src="/images/evangelists.jpg" />
+<img class="floatleft" src="/images/zeta_polar.png" />
 We usually think of the **natural numbers** 1, 2, 3, ... as elements on a straight line that extends infinitely. That is, the relationship between 2 and 3 is the same as between 3 and 4 and so on: they have the same distance between them. In the case of a distance of 1 we might call them neighbours. This perspective focuses on the linearity and additivity of numbers: the linear distance from one number to another number can be expressed as a number. Human thinking is intuitively linear in many situations, even when that does not reflect the entire nature of the considered system. Examples include systems of exponential growth or exponential decay, or systems that involve subtle interaction among subsystems whose behaviour cannot be predicted by assuming "more of $$x$$ means (proportionally) more of $$y$$".
 
 The internal structure of the natural numbers $$\mathbb{N}$$ is also far from this simple. In fact, [number theory](https://en.wikipedia.org/wiki/Number_theory) is an ancient discipline that concerns itself with **understanding the nature of numbers**. This often includes the study of prime numbers: every natural number is either prime $$(\mathrm{e.g.}\ 2, 3, 5, 7, 11, ...)$$ or the product of multiple prime numbers. In this way the primes are a base that all other numbers are built on. We know that there are infinitely many of them, but we don't fully understand how they work. Hence there is no known way to efficiently decide whether a number $$n$$ is prime or not. One inefficient method to check for this is to test for all numbers $$x$$ from $$2$$ to $$\sqrt{n}$$ if $$n$$ is divisible by $$x$$. In awkward ways like this we have found $$2^{82,589,933} - 1$$ to be the [largest known prime number](https://en.wikipedia.org/wiki/Largest_known_prime_number) as of January 2019. And the computers keep searching and searching for even larger prime numbers. Since there are infinitely many prime numbers, this search for the next prime number is only a matter of time, but a long time.
@@ -50,3 +50,5 @@ $$f(x) = \left\{
 \right.$$
 
 If $$x$$ is a leaf node, $$f(x)=\mathrm{label}(x)$$ since $$\Pi_{c\ \in\ \mathrm{\emptyset}}f(c) = 1$$.
+
+This way of approaching the nature of numbers opens a whole new field of possibilities for working with them. In a **future post** we will analyse what the consequences of this type of number representation are. How does this perspective change the relationships among numbers? What arithmetic operations can we define over numbers? What are the advantages?
