@@ -6,7 +6,7 @@ tags: [Politics, Economics, Libertarianism]
 
 
 <img class="floatright" src="/images/adamSmith.jpg" />
-To deal with this question I will consider what some influential people have said on both sides of the argument, 3 for and 3 against the notion of a free market / (unregulated) capitlism / libertarianism.
+To deal with this question I will consider what some influential people have said on both sides of the argument, 3 for and 3 against the notion of a free market / (unregulated) capitlism / libertarianism. While some claim that libertarianism is a system that guarantees the people's economic free (as suggested the word's root *liberty*), others point out what catastrophes have come about because of our current state of capitalism. A free market without government intervention has never existed. Therefore, adherents of libertarian ideals look forward to it becoming a reality in the future. However, critics claim that it would not only make things worse than they are now, but that is a mythical state which can never be achieved by a society. How should we analyse the power tradeoff between government and the market? Does it even make sense to consider them different in nature, or are they two sides of the same coin? What can we learn from the standpoints of the following commentators? I have summarised and paraphrased what I have heard them say on this topics from public appearances that can be found on YouTube.
 
 
 <img class="floatleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jordan_Peterson_June_2018.jpg/220px-Jordan_Peterson_June_2018.jpg" />
