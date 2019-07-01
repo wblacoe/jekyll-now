@@ -8,6 +8,7 @@ tags: [Politics, Economics, Libertarianism]
 <img class="floatright" src="/images/adamSmith.jpg" />
 To deal with this question I will consider what some influential people have said on both sides of the argument, 3 for and 3 against the notion of a free market / (unregulated) capitlism / libertarianism.
 
+
 <img class="floatleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jordan_Peterson_June_2018.jpg/220px-Jordan_Peterson_June_2018.jpg" />
 Let's start with [Jordan Peterson](https://en.wikipedia.org/wiki/Jordan_Peterson), a professor of psychology at the University of Toronto. In [an interview with Joe Rogan](https://youtu.be/04wyGK6k6HE) he claimed that no matter which industry you consider, in every creative endeavour the economy evolves in such a way that a few people rise to the top and the majority stack at the bottom. He cites the Paredo distribution to describe this phenomenon, where the horizontal axis shows the amount of people and the vertical axis is for the wealth per person.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gpdpdf.svg/1200px-Gpdpdf.svg.png" width="70%">
