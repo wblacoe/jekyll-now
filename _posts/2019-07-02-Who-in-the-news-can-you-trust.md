@@ -17,7 +17,7 @@ Initially I watched some of the well-known news channels to get informed about w
 
 At this point I did not know the names of the main American parties or what they stand for. I did not even know what political directions like left, right, liberal or conservative meant.
 
-<table border="0" style="text-align:center;">
+<table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
 <td>
 <img src="/images/stephenColbert.png" height="200" />
@@ -39,7 +39,7 @@ The cable news shows were a source of information, but they could not hold my at
 
 Over time I got onto other news sources on YouTube. I don't remember how I became aware of each of them, but I suppose they were recommended or linked in some way to each other online. Watching the panelists on The Young Turks seemed to be more sophisticated and nuanced than the content and style of the sources mentioned above. I learned a lot from them and started taking a deeper interest in what is going on in the world around me.
 
-<table border="0" style="text-align:center;">
+<table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
 <td>
 <img src="/images/cenkUygur.png" height="200" />
@@ -80,7 +80,7 @@ The more I got into independent news shows like these, the less I was interested
 
 The trust that I had in these journalists and the truthfulness of their messages was significantly higher than with mainstream. The mere fact that they depended on the generosity of their viewership told me that they are motivated to research and report on important matters in order to inform common people and help them take more responsibility in the shaping of their individual lives and collective situation.
 
-<table border="0" style="text-align:center;">
+<table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
 <td>
 <img src="/images/kyleKulinski.jpg" height="200" />
@@ -104,7 +104,7 @@ This seemed to spark a desire in me to become more active, too, in making the wo
 <li><a href="https://www.youtube.com/user/TheRealNews">the real news network</a></li>
 </ul>
 
-<table border="0" style="text-align:center;">
+<table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
 <td>
 <img src="/images/abbyMartin.png" height="200" />
