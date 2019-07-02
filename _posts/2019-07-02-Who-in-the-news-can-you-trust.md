@@ -59,11 +59,11 @@ The more I got into independent news shows like these, the less I was interested
 <tr>
 <td>
 <ul>
-<li>Cenk Uygur, Ana Kasparian, <a href="https://www.youtube.com/user/TheYoungTurks">the young turks</a></li>
-<li>Tyrel Ventura, Tabetha Wallace, <a href="https://www.youtube.com/channel/UCbiFt3UdxX7LxferwDmuegQ">watching the hawks</a></li>
-<li>Ron Paul, <a href="https://www.youtube.com/channel/UCkJ1N-7g9Q6n7KnriGit-Ig">liberty report</a></li>
+<li>Cenk Uygur, Ana Kasparian<br><a href="https://www.youtube.com/user/TheYoungTurks">the young turks</a></li>
+<li>Tyrel Ventura, Tabetha Wallace<br><a href="https://www.youtube.com/channel/UCbiFt3UdxX7LxferwDmuegQ">watching the hawks</a></li>
+<li>Ron Paul<br><a href="https://www.youtube.com/channel/UCkJ1N-7g9Q6n7KnriGit-Ig">liberty report</a></li>
 <li><a href="https://www.youtube.com/user/RTAmerica">RT (America)</a></li>
-<li>Amy Goodman, <a href="https://www.youtube.com/user/democracynow">democracy now</a></li>
+<li>Amy Goodman<br><a href="https://www.youtube.com/user/democracynow">democracy now</a></li>
 <li><a href="https://www.youtube.com/user/videosptv">press TV</a></li>
 <li><a href="https://www.youtube.com/user/AlJazeeraEnglish">Al Jazeera (English)</a></li>
 <li><a href="https://www.youtube.com/user/telesurenglish">Tele Sur (English)</a></li>
@@ -71,12 +71,12 @@ The more I got into independent news shows like these, the less I was interested
 </td>
 <td>
 <ul>
-<li>Mike Figueredo, <a href="https://www.youtube.com/user/MikeAnthonyTV">the humanist report</a></li>
-<li>Luke Rudkowski, <a href="https://www.youtube.com/user/wearechange">we are change</a></li>
+<li>Mike Figueredo<br><a href="https://www.youtube.com/user/MikeAnthonyTV">the humanist report</a></li>
+<li>Luke Rudkowski<br><a href="https://www.youtube.com/user/wearechange">we are change</a></li>
 <li><a href="https://www.youtube.com/user/JasonJustice911">Jason Bermas</a></li>
-<li>Jordan Chariton, <a href="https://www.youtube.com/user/jchar22">status coup</a></li>
-<li>David Doel, <a href="https://www.youtube.com/channel/UCo9oQdIk1MfcnzypG3UnURA">the rational national</a></li>
-<li>Dan Dicks, <a href="https://www.youtube.com/user/weavingspider">press for truth</a></li>
+<li>Jordan Chariton<br><a href="https://www.youtube.com/user/jchar22">status coup</a></li>
+<li>David Doel<br><a href="https://www.youtube.com/channel/UCo9oQdIk1MfcnzypG3UnURA">the rational national</a></li>
+<li>Dan Dicks<br><a href="https://www.youtube.com/user/weavingspider">press for truth</a></li>
 </ul>
 </td>
 </tr>
