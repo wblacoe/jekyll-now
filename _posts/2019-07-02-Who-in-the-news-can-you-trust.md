@@ -27,7 +27,7 @@ At this point I did not know the names of the main American parties or what they
 </tr>
 </table>
 
-The cable news shows were a source of information, but they could not hold my attention for very long. Maybe I was so used to being entertained when watching videos that I lacked the patience when it came to more serious topics. But I soon discovered that the two are not mutually exclusive: There are many comedians and entertainers out there who inform their audience about important matters in playful ways and light interviews. Among those that I watched were
+The cable news shows were a source of information, but they could not hold my attention for very long. Maybe I was so used to being entertained when watching videos that I lacked the patience when it came to more serious topics. But I soon discovered that the two are not mutually exclusive: There are many comedians and entertainers out there who inform their audience about important matters in humorous ways and light-hearted interviews. Among those that I watched were
 
 <ul>
 <li>Stephen Colbert, <a href="https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig">the late show with Stephen Colbert</a></li>
@@ -37,7 +37,7 @@ The cable news shows were a source of information, but they could not hold my at
 <li>John Oliver, <a href="https://www.youtube.com/user/LastWeekTonight">last week tonight</a></li>
 </ul>
 
-Over time I got onto other news sources on YouTube. I don't remember how I became aware of each of them, but I suppose they were recommended or linked in some way to each other online. Watching the panelists on The Young Turks seemed to be more sophisticated and nuanced than the content and style of the sources mentioned above. I learned a lot from them and started taking a deeper interest in what is going on in the world around me.
+Over time I got into other news sources on YouTube. I don't remember how I became aware of each of them, but I suppose they were recommended or linked in some way to each other online. Watching the panelists on The Young Turks engage in discussions seemed to be more sophisticated and nuanced than the content and style of the sources mentioned above. I learned a lot from them and started taking a deeper interest in what is going on in the world around me.
 
 <table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
@@ -49,7 +49,7 @@ Over time I got onto other news sources on YouTube. I don't remember how I becam
 </tr>
 </table>
 
-The more I got into independent news shows like these, the less I was interested in the superficial and entertaining deliveries found on the mainstream news and evening talk shows. Besides finding the alternative programs to have more substance, it was also interesting to see the different business models they used to survive financially. You can divide them into two major groups: (1) semi-large news companies funded by investors or governments and (2) freelancers living off the donations or membership fees of their audience.
+The more I got into independent news shows like these, the less I was interested in the superficial and entertaining deliveries found on the mainstream news and evening talk shows. Besides finding the alternative programs to have more substance, it was also interesting to see the different business models they used to survive financially. You can divide them into two major groups: news companies funded by investors or governments (left column) and freelancers living off the donations or membership fees of their audience (right column).
 
 <table border="0">
 <tr>
@@ -78,7 +78,7 @@ The more I got into independent news shows like these, the less I was interested
 </tr>
 </table>
 
-The trust that I had in these journalists and the truthfulness of their messages was significantly higher than with mainstream. The mere fact that they depended on the generosity of their viewership told me that they are motivated to research and report on important matters in order to inform common people and help them take more responsibility in the shaping of their individual lives and collective situation.
+The trust that I had in these journalists and the truthfulness of their messages was significantly higher than with those in the mainstream. The mere fact that they depend on the generosity of their viewership told me that they are motivated to research and report on important matters in order to inform common people and help them take more responsibility in the shaping of their individual lives and collective situation.
 
 <table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
@@ -90,7 +90,9 @@ The trust that I had in these journalists and the truthfulness of their messages
 </tr>
 </table>
 
-This seemed to spark a desire in me to become more active, too, in making the world a better place. I am in no position of power, but I can affect the people in my immediate surroundings and on social media by the way I interact with them and what I choose to talk about with them. I try to share my excitement with them about what I learn about how the world works, and need to take a step back sometimes in order to not come across as lecturing them. After all, nobody likes to be talked down to. But besides that, many people are also less interested, just the way I was before, or are not prepared to dive into political, economic or sociological themes for various reasons. So in the mean time I keep educating myself. Below is a list of sources that in my opinion have an even higher quality than those in the previous listing. This has to do with the type and relevance of topics they cover, how genuine and direct they are, etc. What differentiates them from the independent shows above is that they do not settle for popular topics such as gossip, sound bytes, scandals, insults or partisan disputes. They are interested in directing the listener's attention to matters that are not covered enough in mainstream programs, but can be of major consequence.
+This seemed to spark a desire in me to become more active in making the world a better place. I am in no position of power, but I can affect the people in my immediate surroundings and on social media by the way I interact with them and what I choose to talk about with them. I try to share my excitement with them about what I learn about how the world works, but I need to take a step back sometimes in order to not come across as lecturing them. After all, nobody likes to be talked down to. But besides that, many people are also less interested, just the way I was before, or are not prepared to dive into political, economic or sociological conversations for various reasons.
+
+So in the mean time I keep educating myself. Below is a list of sources that in my opinion have an even higher quality than those in the previous listing. This has to do with the type and relevance of topics they cover, how genuine and direct they are, etc. What differentiates them from the independent shows above is that they do not settle for popular topics such as gossip, sound bytes, scandals, insults or partisan disputes. They are interested in directing the listener's attention to matters that are not covered enough in mainstream programs, but are of major consequence.
 
 <ul>
 <li>Kyle Kulinski, <a href="https://www.youtube.com/user/SecularTalk">secular talk</a></li>
@@ -104,6 +106,8 @@ This seemed to spark a desire in me to become more active, too, in making the wo
 <li><a href="https://www.youtube.com/user/TheRealNews">the real news network</a></li>
 </ul>
 
+And finally, here are those journalists with the highest quality in my view. They are my personal favourites. These people give me the impression that they have very high moral standards and are not afraid to speak out against abuse and corruption. I love what they have done to serve the public, even when it meant putting their jobs or even their lives in jeopardy. I highly respect them and can't recommend them enough to you all out there.
+
 <table border="0" style="margin-left:auto; margin-right:auto;">
 <tr>
 <td>
@@ -113,8 +117,6 @@ This seemed to spark a desire in me to become more active, too, in making the wo
 </td>
 </tr>
 </table>
-
-And finally, here are those journalists with the highest quality in my view. They are my personal favourites. These people give me the impression that they have very high moral standards and are not afraid to speak out against abuse and corruption. I love what they have done to serve the public, even when it meant putting their jobs or even their lives in jeopardy. I highly respect them and can't recommend them enough to you all out there.
 
 <ul>
 <li>Abby Martin, <a href="https://mediaroots.org/radio/">media roots radio</a> and <a href="https://www.youtube.com/channel/UCG29FnXZm4F5U8xpqs1cs1Q">the empire files</a></li>
