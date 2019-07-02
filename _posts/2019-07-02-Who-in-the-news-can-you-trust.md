@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Who in the News can you trust?
-tags: [Politics, News, Fake News]
+tags: [Politics, News, Journalism]
 ---
 
 <img class="floatleft" src="/images/tv-screen-wall.jpg" />
@@ -12,7 +12,7 @@ Initially I watched some of the well-known news channels to get informed about w
 <ul>
 <li><a href="https://www.youtube.com/user/CNN">CNN</a></li>
 <li><a href="https://www.youtube.com/user/msnbcleanforward">MSNBC</a></li>
-<li><a href="https://www.youtube.com/user/FoxNewsChannel">Fox news</a></li>
+<li><a href="https://www.youtube.com/user/FoxNewsChannel">Fox News</a></li>
 </ul>
 
 At this point I did not know the names of the main American parties or what they stand for. I did not even know what political directions like left, right, liberal or conservative meant.
