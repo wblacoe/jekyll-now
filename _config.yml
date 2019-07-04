@@ -32,9 +32,10 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   googlescholar: sa0R3MkAAAAJ
-  medium: wblacoe
-  minds: wblacoe
-  publish0x: wblacoe
+  
+#  medium: wblacoe
+#  minds: wblacoe
+#  publish0x: wblacoe
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
