@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: wblacoe.github.io
-Token: 6d3148e8da711d0190721be9b57cde956699383f782d1a4dbd9d7e26ac549587
