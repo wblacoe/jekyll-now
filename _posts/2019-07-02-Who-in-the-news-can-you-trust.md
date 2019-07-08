@@ -7,9 +7,6 @@ tags: [Politics, News, Journalism]
 <img class="floatleft" src="/images/tv-screen-wall.jpg" />
 I started taking an interest in politics and the news during the American presidential campaign in 2015/16. Before that I did not consider politics and economics to be relevant in my life at all. I guess I was just too busy, trying to figure out other parts of my life, because now it is apparent to me what a large impact political issues have on me and society around me.
 
-<button class="butt js--triggerAnimation" onclick="responsiveVoice.speak('The Internet is a series of tubes!');" 
-type="button" value="Play">Play</button>
-
 Initially I watched some of the well-known news channels to get informed about what is going on in the world and in preparation for the election. These were, as you would expect,
 
 <ul>
@@ -94,9 +91,7 @@ The trust that I had in these journalists and the truthfulness of their messages
 </table>
 
 <div id="asd">
-This seemed to spark a desire in me to become more active in making the world a better place. I am in no position of power, but I can affect the people in my immediate surroundings and on social media by the way I interact with them and what I choose to talk about with them. I try to share my excitement with them about what I learn about how the world works, but I need to take a step back sometimes in order to not come across as lecturing them. After all, nobody likes to be talked down to. But besides that, many people are also less interested, just the way I was before, or are not prepared to dive into political, economic or sociological conversations for various reasons.
-
-So in the mean time I keep educating myself. Below is a list of sources that in my opinion have an even higher quality than those in the previous listing. This has to do with the type and relevance of topics they cover, how genuine and direct they are, etc. What differentiates them from the independent shows above is that they do not settle for popular topics such as gossip, sound bytes, scandals, insults or partisan disputes. They are interested in directing the listener's attention to matters that are not covered enough in mainstream programs, but are of major consequence.
+This seemed to spark a desire in me to become more active in making the world a better place. I am in no position of power, but I can affect the people in my immediate surroundings and on social media by the way I interact with them and what I choose to talk about with them. I try to share my excitement with them about what I learn about how the world works, but I need to take a step back sometimes in order to not come across as lecturing them. After all, nobody likes to be talked down to. But besides that, many people are also less interested, just the way I was before, or are not prepared to dive into political, economic or sociological conversations for various reasons. So in the mean time I keep educating myself. Below is a list of sources that in my opinion have an even higher quality than those in the previous listing. This has to do with the type and relevance of topics they cover, how genuine and direct they are, etc. What differentiates them from the independent shows above is that they do not settle for popular topics such as gossip, sound bytes, scandals, insults or partisan disputes. They are interested in directing the listener's attention to matters that are not covered enough in mainstream programs, but are of major consequence.
 </div>
 
 <button onclick="responsiveVoice.speak(document.getElementById('asd').innerHTML);">Press</button>
