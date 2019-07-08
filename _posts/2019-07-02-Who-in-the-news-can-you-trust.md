@@ -125,3 +125,5 @@ And finally, here are those journalists with the highest quality in my view. The
 <li>Lee Camp, <a href="https://www.youtube.com/user/redactedtonight">redacted tonight</a></li>
 <li>Richard Wolff, <a href="https://www.youtube.com/user/democracyatwrk">democracy at work</a></li>
 </ul>
+
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=atR9DHTI"></script>
