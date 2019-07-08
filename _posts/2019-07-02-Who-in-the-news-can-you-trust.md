@@ -7,6 +7,9 @@ tags: [Politics, News, Journalism]
 <img class="floatleft" src="/images/tv-screen-wall.jpg" />
 I started taking an interest in politics and the news during the American presidential campaign in 2015/16. Before that I did not consider politics and economics to be relevant in my life at all. I guess I was just too busy, trying to figure out other parts of my life, because now it is apparent to me what a large impact political issues have on me and society around me.
 
+<button class="butt js--triggerAnimation" onclick="responsiveVoice.speak('The Internet is a series of tubes!');" 
+type="button" value="Play">Play</button>
+
 Initially I watched some of the well-known news channels to get informed about what is going on in the world and in preparation for the election. These were, as you would expect,
 
 <ul>
